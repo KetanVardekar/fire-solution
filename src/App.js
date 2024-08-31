@@ -51,6 +51,8 @@ import TermsOfUse from './pages/TermsOfUse';
 // Css Import
 import './assets/scss/app.scss';
 
+import OurWork from './component/project/OurWork';
+
 
 const App = () => {
   return (
@@ -82,6 +84,7 @@ const App = () => {
 				<Route path={process.env.PUBLIC_URL + "/pipeline-erection"} element={<ProjectGridThree />}/>
 				<Route path={process.env.PUBLIC_URL + "/fire-alarm-system"} element={<ProjectGridFour />}/>
 				<Route path={process.env.PUBLIC_URL + "/about-us"} element={<ProjectGridFive />}/>
+				<Route path={process.env.PUBLIC_URL + "/our-work"} element={<OurWork />}/>
 				<Route path={process.env.PUBLIC_URL + "/project-width-two"} element={<ProjectGridFive />}/>
 				<Route path={process.env.PUBLIC_URL + "/project-details/:slug"} element={<ProjectDetails />}/>
 

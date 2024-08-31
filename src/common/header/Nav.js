@@ -30,6 +30,10 @@ const Nav = () => {
                     
                 </li>
                 <li className="menu-item-has-children">
+                    <Link to={process.env.PUBLIC_URL + "/our-work"}>Our Work</Link>
+                    
+                </li>
+                <li className="menu-item-has-children">
                     <Link  to={process.env.PUBLIC_URL + "/contact"}>CONTACT US</Link>
                     
                 </li>
