@@ -1,5 +1,5 @@
 import React from 'react';
-import {useParams} from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import FooterOne from '../common/footer/FooterOne';
 import HeaderOne from '../common/header/HeaderOne';
 import BcrumbBannerOne from '../elements/breadcrumb/BcrumbBannerOne';
@@ -27,19 +27,19 @@ const ServiceDetails = () => {
 
     return (
         <>
-        <SEO title="Service Details" />
-        <ColorSwitcher />
-        <main className="main-wrapper">
-            <HeaderOne />
-            <BcrumbBannerOne 
-            title={detailsService.title}
-            paragraph ={detailsService.description}
-            styleClass=""
-            mainThumb="/images/banner/service-2.jpg"
-            />
-            <AboutTwo />
-           
-            <div className="section section-padding bg-color-light pb--70">
+            <SEO title="Service Details" />
+            <ColorSwitcher />
+            <main className="main-wrapper">
+                <HeaderOne />
+                <BcrumbBannerOne
+                    title={detailsService.title}
+                    paragraph={detailsService.description}
+                    styleClass=""
+                    mainThumb="/images/banner/service-2.jpg"
+                />
+                <AboutTwo />
+
+                {/* <div className="section section-padding bg-color-light pb--70">
                 <SectionTitle 
                     subtitle={detailsService.process.sectionSub}
                     title={detailsService.process.sectionTitle}
@@ -71,32 +71,32 @@ const ServiceDetails = () => {
                     <li className="shape shape-5"><img src={process.env.PUBLIC_URL + "/images/others/line-4.png"} alt="Line" /></li>
                     <li className="shape shape-6"><img src={process.env.PUBLIC_URL + "/images/others/line-5.png"} alt="Line" /></li>
                 </ul>
-            </div>
-            <div className="section section-padding">
-                <div className="container">
-                    <SectionTitle 
-                        subtitle="Our Project"
-                        title="Featured Designs"
-                        description=""
-                        textAlignment=""
-                        textColor=""
-                    />
-                    <div className="row row-35">
-                        {getProjectData.slice(0, 2).map((data) => (
-                            <div className="col-md-6" key={data.id}>
-                                <ProjectPropOne projectStyle="" portfolio={data}/>
-                            </div>
-                        ))}
+            </div> */}
+                <div className="section section-padding">
+                    <div className="container">
+                        <SectionTitle
+                            subtitle="Our Project"
+                            title="Featured Designs"
+                            description=""
+                            textAlignment=""
+                            textColor=""
+                        />
+                        <div className="row row-35">
+                            {getProjectData.slice(0, 2).map((data) => (
+                                <div className="col-md-6" key={data.id}>
+                                    <ProjectPropOne projectStyle="" portfolio={data} />
+                                </div>
+                            ))}
+                        </div>
                     </div>
+                    <ul className="shape-group-16 list-unstyled">
+                        <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/circle-2.png"} alt="circle" /></li>
+                        <li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/bubble-1.png"} alt="Line" /></li>
+                    </ul>
                 </div>
-                <ul className="shape-group-16 list-unstyled">
-                    <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/circle-2.png"} alt="circle" /></li>
-                    <li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/bubble-1.png"} alt="Line" /></li>
-                </ul>
-            </div>
-            <CtaLayoutOne />
-        <FooterOne parentClass="" />
-        </main>
+                <CtaLayoutOne />
+                <FooterOne parentClass="" />
+            </main>
         </>
     )
 }
