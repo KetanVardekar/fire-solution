@@ -1,0 +1,23 @@
+[
+
+    {
+        "thumb": "/images/others/location-01.jpg",
+        "title": "Surat",
+        "address": "435 , near VR Mall"
+    },
+    {
+        "thumb": "/images/others/location-02.jpg",
+        "title": "Mumbai",
+        "address": "A-1 , Near BKC"
+    },
+    {
+        "thumb": "/images/others/location-03.jpg",
+        "title": "Ahemdabd",
+        "address": "A-43 , Near S.G. Highway"
+    },
+    {
+        "thumb": "/images/others/location-04.jpg",
+        "title": "Delhi",
+        "address": "Sector-12 , Near Nehru Park"
+    }
+]

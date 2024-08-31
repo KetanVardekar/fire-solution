@@ -1,0 +1,76 @@
+[
+
+    {
+        "fromtext": "Yelp",
+        "from": "/images/icon/yelp-2.png",
+        "description": "“ Exceptional fire safety service with flawless installation. We trust Fire Safety Solution completely for our facility's protection. ”",
+        "authorimg": "/images/testimonial/testimonial-01.jpg",
+        "authorname": "Darrell Steward",
+        "authordesig": "Executive Chairman"
+    },
+    {
+        "fromtext": "Google",
+        "from": "/images/icon/google-2.png",
+        "description": "“ Professional, responsive, and top-notch fire alarm system. Highly recommend Fire Safety Solution for enhancing fire safety. ”",
+        "authorimg": "/images/testimonial/testimonial-02.jpg",
+        "authorname": "Savannah Nguyen",
+        "authordesig": "Executive Chairman"
+    },
+    {
+        "fromtext": "Facebook",
+        "from": "/images/icon/fb-2.png",
+        "description": "“ Reliable O&M and AMC services. Fire Safety Solution ensures our fire protection systems work perfectly, keeping our tenants safe. ”",
+        "authorimg": "/images/testimonial/testimonial-03.jpg",
+        "authorname": "Floyd Miles",
+        "authordesig": "Executive Chairman"
+    },
+    {
+        "fromtext": "Yelp",
+        "from": "/images/icon/yelp-2.png",
+        "description": "“ Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”",
+        "authorimg": "/images/testimonial/testimonial-1.png",
+        "authorname": "Darrell Steward",
+        "authordesig": "Executive Chairman"
+    },
+    {
+        "fromtext": "Google",
+        "from": "/images/icon/google-2.png",
+        "description": "“ Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”",
+        "authorimg": "/images/testimonial/testimonial-2.png",
+        "authorname": "Savannah Nguyen",
+        "authordesig": "Executive Chairman"
+    },
+    {
+        "fromtext": "Facebook",
+        "from": "/images/icon/fb-2.png",
+        "description": "“ Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”",
+        "authorimg": "/images/testimonial/testimonial-3.png",
+        "authorname": "Floyd Miles",
+        "authordesig": "Executive Chairman"
+    },
+    {
+        "fromtext": "Yelp",
+        "from": "/images/icon/yelp-2.png",
+        "description": "“ Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”",
+        "authorimg": "/images/testimonial/testimonial-1.png",
+        "authorname": "Darrell Steward",
+        "authordesig": "Executive Chairman"
+    },
+    {
+        "fromtext": "Google",
+        "from": "/images/icon/google-2.png",
+        "description": "“ Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”",
+        "authorimg": "/images/testimonial/testimonial-2.png",
+        "authorname": "Savannah Nguyen",
+        "authordesig": "Executive Chairman"
+    },
+    {
+        "fromtext": "Facebook",
+        "from": "/images/icon/fb-2.png",
+        "description": "“ Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”",
+        "authorimg": "/images/testimonial/testimonial-3.png",
+        "authorname": "Floyd Miles",
+        "authordesig": "Executive Chairman"
+    }
+
+]
