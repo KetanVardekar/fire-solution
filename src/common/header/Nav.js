@@ -8,12 +8,12 @@ const Nav = () => {
         <nav className="mainmenu-nav">
             <ul className="mainmenu">
                 <li className="menu-item-has-children">
-                    <Link  to={process.env.PUBLIC_URL + "/corporate-agency"}>HOME </Link>
-                    
+                    <Link to={process.env.PUBLIC_URL + "/corporate-agency"}>HOME </Link>
+
                 </li>
                 <li className="menu-item-has-children">
                     <Link to={process.env.PUBLIC_URL + "/about-us"}>ABOUT US</Link>
-                    
+
                 </li>
                 <li className="menu-item-has-children">
                     <Link to="#">SERVICES <FaAngleDown /></Link>
@@ -22,20 +22,25 @@ const Nav = () => {
                         <li><Link to={process.env.PUBLIC_URL + "/fire-sprinkler-system"}>FIRE SPRINKLER SYSTEM</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/pipeline-erection"}>PIPELINE FABRICATION & ERECTION</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/fire-alarm-system"}>FIRE ALARM SYSTEM</Link></li>
-                    
+
                     </ul>
                 </li>
-                <li className="menu-item-has-children">
-                    <Link to="#">BROCHERS</Link>
-                    
-                </li>
+
                 <li className="menu-item-has-children">
                     <Link to={process.env.PUBLIC_URL + "/our-work"}>Our Work</Link>
-                    
+
                 </li>
+
                 <li className="menu-item-has-children">
-                    <Link  to={process.env.PUBLIC_URL + "/contact"}>CONTACT US</Link>
-                    
+                    <a href={process.env.PUBLIC_URL + "/images/others/fire-safety-solution-brochure.pdf"} target="_blank" rel="noopener noreferrer">
+                        BROCHURES
+                    </a>
+                </li>
+
+
+                <li className="menu-item-has-children">
+                    <Link to={process.env.PUBLIC_URL + "/contact"}>CONTACT US</Link>
+
                 </li>
             </ul>
         </nav>

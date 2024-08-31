@@ -17,20 +17,29 @@ const HeaderOne = () => {
     const sticky = StickyHeader(100);
 
     const MobileMenuHandler = () => {
-        document.querySelector('.mobilemenu-popup').classList.toggle("show");
-        document.querySelector('body').classList.toggle("mobilemenu-show");
+        const mobileMenuPopup = document.querySelector('.mobilemenu-popup');
+        const body = document.querySelector('body');
 
-        var elements = document.querySelectorAll('.mobilemenu-popup .menu-item-has-children > a');
-    
-        for(var i in elements) {
-            if(elements.hasOwnProperty(i)) {
-                elements[i].onclick = function() {
-                    this.parentElement.querySelector('.axil-submenu').classList.toggle("active");
+        if (mobileMenuPopup && body) {
+            mobileMenuPopup.classList.toggle("show");
+            body.classList.toggle("mobilemenu-show");
+
+            const elements = mobileMenuPopup.querySelectorAll('.menu-item-has-children > a');
+
+            elements.forEach(element => {
+                element.onclick = function () {
+                    const submenu = this.parentElement.querySelector('.axil-submenu');
+                    if (submenu) {
+                        submenu.classList.toggle("active");
+                    }
                     this.classList.toggle("open");
                 }
-            }
+            });
+        } else {
+            console.error("Mobile menu or body element not found.");
         }
-    }
+    };
+
 
 
     return (
@@ -41,8 +50,8 @@ const HeaderOne = () => {
                         <div className="header-navbar">
                             <div className="header-logo">
                                 <Logo limage="/images/logo.svg"
-                                dimage="/images/logo-3.svg"
-                                simage="/images/logo-2.svg"
+                                    dimage="/images/logo-3.svg"
+                                    simage="/images/logo-2.svg"
                                 />
                             </div>
                             <div className="header-main-nav">
@@ -74,7 +83,7 @@ const HeaderOne = () => {
                 </div>
             </header>
             <OffcanvasMenu offcanvasShow={showOffcanvas} offcanvasHide={OffcanvasHandleClose} />
-            <MobileMenu MobileHandler={MobileMenuHandler}/>
+            <MobileMenu MobileHandler={MobileMenuHandler} />
         </>
     )
 }
