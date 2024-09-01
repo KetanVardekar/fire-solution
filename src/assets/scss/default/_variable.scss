@@ -2,87 +2,99 @@
     Variables
 -------------------------*/
 :root {
-// Color
---color-primary: #ffcc29;
---color-white: #ffffff;
---color-black: #000000;
---color-light: #ECF2F6;
---color-dark: #27272E;
---color-text-dark: #292930;
---color-accent1: #FFDC60;
---color-accent2: #FAB8C4;
+    // Color
+    --color-primary: #FF4500;
+    /* A vibrant orange-red to symbolize fire and urgency */
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-light: #F9F9F9;
+    /* A softer light color to contrast with the bold fire colors */
+    --color-dark: #2C2C2C;
+    /* A dark color for text and elements */
+    --color-text-dark: #1E1E1E;
+    --color-accent1: #FF6347;
+    /* A warm tomato red for highlights and accents */
+    --color-accent2: #FFD700;
+    /* A golden yellow to represent safety and caution */
 
---color-blue-shade: #6865FF;
---color-link: #2522BA;
---color-mabel: #DBF8FF;
---color-fog: #DBDEFF;
---color-pink-shade: #FFD3DB;
---color-peach: #FFEDDC;
---color-rose: #C75C6F;
+    --color-blue-shade: #0056B3;
+    /* A deep blue for trust and reliability */
+    --color-link: #FF5733;
+    /* A bright, eye-catching link color */
+    --color-mabel: #FFDAB9;
+    /* A peachy shade for subtle background elements */
+    --color-fog: #F5F5F5;
+    --color-pink-shade: #FF6F61;
+    /* A coral-pink for softer accents */
+    --color-peach: #FFF5EE;
+    --color-rose: #B22222;
+    /* Firebrick red for emphasis */
 
---color-chart1: #896BA7;
---color-chart2: #BADEFF;
+    --color-chart1: #FF7F50;
+    /* Coral for chart elements */
+    --color-chart2: #FFB6C1;
+    /* Light pink for secondary chart elements */
 
---color-body: #525260;
---color-gray-1: #757589;
---color-gray-2: #999FAE;
---color-gray-3: #999AB8;
---color-gray-4: #99A1AA;
---color-ship-gray: #42424A;
---color-ghost: #C7C7D5;
---color-mercury: #E5E5E5;
-
-
-// Gradient Color
---gradient-primary: linear-gradient(90deg, #ECF2F6 0%, rgba(236, 242, 246, 0) 70.31%);
---gradient-blue: linear-gradient(145.92deg, #5956E9 20.18%, #9991FF 76.9%);
---gradient-accent: linear-gradient(180deg, #FAB8C4 0%, #FFEDF0 100%);
---gradient-white: linear-gradient(266.3deg, rgba(236, 242, 246, 0) 7.84%, #ECF2F6 29.1%, rgba(236, 242, 246, 0) 64.32%);
---gradient-dark: linear-gradient(180deg, #27272E 0%, #303035 100%);
-
-
-
-// Border
---border-light: 1px solid #E3E6E9;
---border-lighter: 1px solid #ECF2F6;
---border-dark: 1px solid var(--color-ship-gray);
---border-gray: 1px solid var(--color-gray-4);
+    --color-body: #404040;
+    --color-gray-1: #696969;
+    --color-gray-2: #A9A9A9;
+    --color-gray-3: #D3D3D3;
+    --color-gray-4: #E0E0E0;
+    --color-ship-gray: #4B4B4B;
+    --color-ghost: #DCDCDC;
+    --color-mercury: #E5E5E5;
 
 
-//Font Family
---font-primary: 'DM Sans', sans-serif;
---font-secondary: 'Poppins', sans-serif;
---font-awesome: 'Font Awesome 5 Pro';
+    // Gradient Color
+    --gradient-primary: linear-gradient(90deg, #FF4500 0%, rgba(255, 69, 0, 0) 70.31%);
+    --gradient-blue: linear-gradient(145.92deg, #0056B3 20.18%, #0073E6 76.9%);
+    --gradient-accent: linear-gradient(180deg, #FFD700 0%, #FFF5EE 100%);
+    --gradient-white: linear-gradient(266.3deg, rgba(249, 249, 249, 0) 7.84%, #F9F9F9 29.1%, rgba(249, 249, 249, 0) 64.32%);
+    --gradient-dark: linear-gradient(180deg, #2C2C2C 0%, #3A3A3A 100%);
 
-// Transition
---transition: all 0.3s ease-in-out;
 
-//Fonts Size
---font-body-1: 18px;
---font-body-2: 16px;
---font-body-3: 14px;
---font-body-4: 12px;
 
-// Line Height
---line-height-b1: 1.5;
---line-height-b3: 1.1;
+    // Border
+    --border-light: 1px solid #F0F0F0;
+    --border-lighter: 1px solid #F9F9F9;
+    --border-dark: 1px solid var(--color-ship-gray);
+    --border-gray: 1px solid var(--color-gray-4);
 
-// Heading Font 
---h1: 80px; 
---h2: 64px; 
---h3: 48px;
---h4: 32px; 
---h5: 24px; 
---h6: 20px; 
+
+    // Font Family
+    --font-primary: 'DM Sans', sans-serif;
+    --font-secondary: 'Poppins', sans-serif;
+    --font-awesome: 'Font Awesome 5 Pro';
+
+    // Transition
+    --transition: all 0.3s ease-in-out;
+
+    // Fonts Size
+    --font-body-1: 18px;
+    --font-body-2: 16px;
+    --font-body-3: 14px;
+    --font-body-4: 12px;
+
+    // Line Height
+    --line-height-b1: 1.5;
+    --line-height-b3: 1.1;
+
+    // Heading Font 
+    --h1: 80px;
+    --h2: 64px;
+    --h3: 48px;
+    --h4: 32px;
+    --h5: 24px;
+    --h6: 20px;
 }
+
 
 // Layouts Variation
 $smlg-device: 'only screen and (max-width: 1199px)';
 $extra-device: 'only screen and (min-width: 1600px) and (max-width: 1919px)';
 $laptop-device: 'only screen and (min-width: 1200px) and (max-width: 1599px)';
 $lg-layout: 'only screen and (min-width: 992px) and (max-width: 1199px)';
-$md-layout:'only screen and (max-width: 991px)';
-$sm-layout:'only screen and (max-width: 767px)';
+$md-layout: 'only screen and (max-width: 991px)';
+$sm-layout: 'only screen and (max-width: 767px)';
 $large-mobile: 'only screen and (max-width: 575px)';
 $small-mobile: 'only screen and (max-width: 479px)';
-
