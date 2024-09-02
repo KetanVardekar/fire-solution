@@ -1,119 +1,159 @@
 [
     {
         "id": 1,
-        "image": "/images/project/fire-hydrant-system-1.jpg",
-        "title": "Wet Barrel Hydrants",
-        "category": ["Fire Safety", "Hydrant Systems", "Wet Barrel"],
-        "excerpt": "Wet Barrel Hydrants are designed for climates where freezing is not a concern, keeping water in the barrel at all times.",
+        "image": "/images/project/commercial-building-hydrants-systems.jpg",
+        "title": "Commercial Building Hydrant Systems",
+        "category": [
+            "Fire Safety",
+            "Hydrant Systems",
+            "Commercial"
+        ],
+        "excerpt": "Commercial Building Hydrant Systems are designed to meet the high demands of large buildings, ensuring robust and reliable fire protection.",
         "body": [
-            "Wet Barrel Hydrants feature a design where the barrel remains filled with water, making them ideal for areas with moderate climates.",
-            "The hydrant operates by opening the valve to allow water to flow out through the nozzles, providing immediate access to water for firefighting."
+            "Commercial Building Hydrant Systems are engineered for high-rise buildings and large commercial spaces, offering robust fire suppression capabilities.",
+            "These systems are designed to provide immediate water access through high-pressure hydrants, ensuring effective firefighting even in demanding situations."
         ]
     },
     {
         "id": 2,
-        "image": "/images/project/fire-hydrant-system-2.jpg",
-        "title": "Dry Barrel Hydrants",
-        "category": ["Fire Safety", "Hydrant Systems", "Dry Barrel"],
-        "excerpt": "Dry Barrel Hydrants are designed for freezing climates, with the barrel being drained of water to prevent freezing.",
+        "image": "/images/project/residential-fire-hydrant-system.jpg",
+        "title": "Residential Fire Hydrant Systems",
+        "category": [
+            "Fire Safety",
+            "Hydrant Systems",
+            "Residential"
+        ],
+        "excerpt": "Residential Fire Hydrant Systems are designed for residential areas, focusing on ease of use and reliable performance in emergencies.",
         "body": [
-            "Dry Barrel Hydrants are equipped to handle freezing temperatures by ensuring the barrel is emptied when not in use.",
-            "When activated, water flows into the barrel from below and is directed through the nozzles, allowing for effective firefighting."
+            "Residential Fire Hydrant Systems are optimized for smaller communities and residential areas, offering reliable performance with a focus on user-friendliness.",
+            "These systems ensure that water is readily available for firefighting in residential environments, providing peace of mind and safety."
         ]
     },
     {
         "id": 3,
-        "image": "/images/project/fire-hydrant-system-3.jpg",
-        "title": "Standpipe Systems",
-        "category": ["Fire Safety", "Standpipe Systems", "Building Protection"],
-        "excerpt": "Standpipe Systems are vertical pipes in buildings that provide water for firefighting, available in dry and wet versions.",
+        "image": "/images/project/automatic-sprinkler-system.jpg",
+        "title": "Automatic Sprinkler Systems",
+        "category": [
+            "Fire Safety",
+            "Sprinkler Systems",
+            "Automatic"
+        ],
+        "excerpt": "Automatic Sprinkler Systems are crucial for buildings, activating automatically to provide immediate fire suppression.",
         "body": [
-            "Standpipe Systems are crucial for buildings, providing internal access to water for firefighting through vertical pipes.",
-            "Dry standpipes are filled with water from an external source when needed, while wet standpipes have a constant water supply."
+            "Automatic Sprinkler Systems are designed to detect heat and activate sprinklers automatically, providing an efficient response to fires.",
+            "These systems are essential for safeguarding buildings by ensuring that water is distributed quickly and effectively upon detection of a fire."
         ]
     },
     {
         "id": 4,
-        "image": "/images/project/fire-hydrant-system-4.jpg",
-        "title": "Fire Department Connections (FDCs)",
-        "category": ["Fire Safety", "FDCs", "External Connections"],
-        "excerpt": "Fire Department Connections (FDCs) allow firefighters to supplement building water supplies for internal fire protection systems.",
+        "image": "/images/project/pre-action-sprinkler-system.jpg",
+        "title": "Pre-Action Sprinkler Systems",
+        "category": [
+            "Fire Safety",
+            "Sprinkler Systems",
+            "Pre-Action"
+        ],
+        "excerpt": "Pre-Action Sprinkler Systems offer a two-step activation process to prevent accidental discharge and provide targeted fire protection.",
         "body": [
-            "FDCs provide a critical link between external firefighting equipment and a building's internal fire protection systems.",
-            "By connecting hoses from fire trucks to the FDCs, firefighters can boost the water supply available for effective firefighting operations."
+            "Pre-Action Sprinkler Systems combine elements of both wet and dry systems, requiring confirmation of fire before water is released.",
+            "This system is ideal for environments where protecting sensitive equipment or materials is critical, ensuring controlled and precise water discharge."
         ]
     },
     {
         "id": 5,
-        "image": "/images/project/fire-sprinkler-system-1.jpeg",
-        "title": "Wet Pipe Sprinkler Systems",
-        "category": ["Fire Safety", "Sprinkler Systems", "Wet Pipe"],
-        "excerpt": "Wet Pipe Sprinkler Systems are the most common type, with pipes always filled with water ready to activate in case of fire.",
+        "image": "/images/project/fire-fighting-equipment.jpg",
+        "title": "Fire Fighting Equipment Supply",
+        "category": [
+            "Fire Safety",
+            "Equipment Supply",
+            "Fire Fighting"
+        ],
+        "excerpt": "Fire Fighting Equipment Supply provides essential tools and gear for effective fire response, ensuring safety and preparedness.",
         "body": [
-            "Wet Pipe Sprinkler Systems maintain a constant supply of water in the pipes, making them highly reliable for immediate response during a fire.",
-            "When a sprinkler head is activated by heat, water flows directly from the pipes to extinguish the fire."
+            "Our Fire Fighting Equipment Supply includes a wide range of tools such as hoses, nozzles, and extinguishers, designed to support efficient firefighting efforts.",
+            "We offer high-quality equipment tailored to various fire scenarios, enhancing safety and operational readiness."
         ]
     },
     {
         "id": 6,
-        "image": "/images/project/fire-sprinkler-system-2.jpeg",
-        "title": "Dry Pipe Sprinkler Systems",
-        "category": ["Fire Safety", "Sprinkler Systems", "Dry Pipe"],
-        "excerpt": "Dry Pipe Sprinkler Systems are used in areas where freezing is a concern, with the pipes filled with air or nitrogen until activated.",
+        "image": "/images/project/fire-fighting-consultation.jpg",
+        "title": "Fire Fighting Training and Consultation",
+        "category": [
+            "Fire Safety",
+            "Training",
+            "Consultation"
+        ],
+        "excerpt": "Fire Fighting Training and Consultation services provide essential knowledge and skills for effective fire management and safety compliance.",
         "body": [
-            "Dry Pipe Sprinkler Systems keep pipes filled with air or nitrogen, which prevents water from freezing in cold conditions.",
-            "When a sprinkler head activates, the air or nitrogen is released, allowing water to flow into the pipes and out through the sprinkler heads."
+            "Our Fire Fighting Training and Consultation services are designed to equip individuals and teams with the skills needed for efficient fire management.",
+            "We offer comprehensive training programs and expert consultation to ensure that your fire safety practices are up-to-date and effective."
         ]
     },
     {
         "id": 7,
-        "image": "/images/project/fire-sprinkler-system-3.jpeg",
-        "title": "Pre-Action Sprinkler Systems",
-        "category": ["Fire Safety", "Sprinkler Systems", "Pre-Action"],
-        "excerpt": "Pre-Action Sprinkler Systems combine features of wet and dry systems, requiring a two-step process to release water.",
+        "image": "/images/project/Fire-alarm-system-1.jpg",
+        "title": "Conventional Fire Alarm Systems",
+        "category": [
+            "Fire Safety",
+            "Alarm Systems",
+            "Conventional"
+        ],
+        "excerpt": "Conventional Fire Alarm Systems offer straightforward detection and notification, suitable for smaller or less complex environments.",
         "body": [
-            "Pre-Action Sprinkler Systems require two triggers: the detection of a fire and the activation of the sprinkler heads.",
-            "This system uses a dry pipe filled with air or nitrogen and is activated when the fire detection system senses a fire, allowing water to flow into the pipes."
+            "Conventional Fire Alarm Systems are designed for simplicity and reliability, providing basic detection and alert functions for smaller buildings.",
+            "These systems activate alarms and notifications when fire or smoke is detected, ensuring prompt response to fire emergencies."
         ]
     },
     {
         "id": 8,
-        "image": "/images/project/fire-sprinkler-system-4.jpeg",
-        "title": "Deluge Sprinkler Systems",
-        "category": ["Fire Safety", "Sprinkler Systems", "Deluge"],
-        "excerpt": "Deluge Sprinkler Systems are designed for high-hazard areas, providing a large volume of water to quickly control fires.",
+        "image": "/images/project/Fire-alarm-system-2.jpg",
+        "title": "Addressable Fire Alarm Systems",
+        "category": [
+            "Fire Safety",
+            "Alarm Systems",
+            "Addressable"
+        ],
+        "excerpt": "Addressable Fire Alarm Systems provide detailed location information and advanced detection capabilities for larger and more complex installations.",
         "body": [
-            "Deluge Sprinkler Systems use open sprinklers that release water over a large area, often used in high-risk environments where rapid fire control is crucial.",
-            "These systems are activated by a fire detection system, which opens the deluge valve to allow water to flood the entire area."
+            "Addressable Fire Alarm Systems offer precise location data for fire detection, enabling quicker and more accurate responses in larger buildings.",
+            "These systems enhance safety by pinpointing the exact location of the alarm activation, streamlining emergency response efforts."
         ]
     },
     {
         "id": 9,
-        "image": "/images/project/fabrication-1.jpg",
-        "title": "Carbon Steel Pipelines",
-        "category": ["Fire Safety", "Pipeline Systems", "Carbon Steel"],
-        "excerpt": "Carbon Steel Pipelines are used in various applications due to their strength and durability, suitable for high-pressure systems.",
+        "image": "/images/project/PPE.jpg",
+        "title": "Personal Protective Equipment (PPE)",
+        "category": [
+            "Fire Safety",
+            "PPE",
+            "Personal Gear"
+        ],
+        "excerpt": "Personal Protective Equipment (PPE) includes essential gear for safety during fire emergencies, designed to protect individuals from hazards.",
         "body": [
-            "Carbon Steel Pipelines are preferred for their strength and ability to withstand high pressures and temperatures.",
-            "Fabrication involves cutting, welding, and assembling carbon steel pipes to create robust and reliable pipeline systems."
+            "Our Personal Protective Equipment (PPE) offerings include fire-resistant clothing, helmets, gloves, and other gear to ensure safety during fire response.",
+            "These items are designed to protect firefighters and emergency responders from the hazards of fire and high temperatures."
         ]
     },
     {
         "id": 10,
-        "image": "/images/project/fabrication-2.jpg",
-        "title": "Stainless Steel Pipelines",
-        "category": ["Fire Safety", "Pipeline Systems", "Stainless Steel"],
-        "excerpt": "Stainless Steel Pipelines are known for their resistance to corrosion and high-temperature performance, making them ideal for demanding environments.",
+        "image": "/images/project/safety-equipment.jpg",
+        "title": "Essential Safety Gear and Equipment",
+        "category": ["Fire Safety", "Safety Gear", "Essential Equipment"],
+        "excerpt": "Essential Safety Gear and Equipment are critical for protecting individuals during fire emergencies, offering comprehensive solutions for safety and readiness.",
         "body": [
-            "Stainless Steel Pipelines offer excellent resistance to corrosion and can handle high temperatures, making them suitable for various industrial applications.",
-            "Fabrication involves precision welding and assembly to ensure durability and integrity in corrosive or high-temperature environments."
+            "Our Essential Safety Gear and Equipment range includes protective clothing, helmets, gloves, and other crucial items designed to safeguard individuals during fire emergencies.",
+            "We provide high-quality safety gear tailored for various scenarios, ensuring that both professionals and the general public are well-prepared and protected in case of a fire."
         ]
     },
     {
         "id": 11,
         "image": "/images/project/fabrication-3.jpg",
         "title": "PVC Pipelines",
-        "category": ["Fire Safety", "Pipeline Systems", "PVC"],
+        "category": [
+            "Fire Safety",
+            "Pipeline Systems",
+            "PVC"
+        ],
         "excerpt": "PVC Pipelines are lightweight and resistant to corrosion, used in applications requiring low pressure and non-corrosive environments.",
         "body": [
             "PVC Pipelines are used for their lightweight properties and resistance to corrosion, making them ideal for applications involving low pressure or non-corrosive fluids.",
@@ -124,7 +164,11 @@
         "id": 12,
         "image": "/images/project/fabrication-4.jpg",
         "title": "HDPE Pipelines",
-        "category": ["Fire Safety", "Pipeline Systems", "HDPE"],
+        "category": [
+            "Fire Safety",
+            "Pipeline Systems",
+            "HDPE"
+        ],
         "excerpt": "HDPE Pipelines are known for their flexibility, resistance to corrosion, and ability to handle a range of temperatures and pressures.",
         "body": [
             "HDPE (High-Density Polyethylene) Pipelines are flexible and resistant to corrosion, making them suitable for various applications, including water and gas distribution.",
@@ -135,7 +179,11 @@
         "id": 13,
         "image": "/images/project/Fire-alarm-system-1.jpg",
         "title": "Conventional Fire Alarm Systems",
-        "category": ["Fire Safety", "Alarm Systems", "Conventional"],
+        "category": [
+            "Fire Safety",
+            "Alarm Systems",
+            "Conventional"
+        ],
         "excerpt": "Conventional Fire Alarm Systems provide basic fire detection by dividing the building into zones, with alarms activated per zone.",
         "body": [
             "Conventional Fire Alarm Systems use detectors and call points to monitor specific zones within a building.",
@@ -146,7 +194,11 @@
         "id": 14,
         "image": "/images/project/Fire-alarm-system-2.jpg",
         "title": "Addressable Fire Alarm Systems",
-        "category": ["Fire Safety", "Alarm Systems", "Addressable"],
+        "category": [
+            "Fire Safety",
+            "Alarm Systems",
+            "Addressable"
+        ],
         "excerpt": "Addressable Fire Alarm Systems offer advanced detection with the ability to pinpoint the exact location of the fire or fault.",
         "body": [
             "Addressable Fire Alarm Systems use intelligent detectors and modules that communicate specific information to the control panel.",
@@ -157,7 +209,11 @@
         "id": 15,
         "image": "/images/project/Fire-alarm-system-3.jpg",
         "title": "Wireless Fire Alarm Systems",
-        "category": ["Fire Safety", "Alarm Systems", "Wireless"],
+        "category": [
+            "Fire Safety",
+            "Alarm Systems",
+            "Wireless"
+        ],
         "excerpt": "Wireless Fire Alarm Systems offer flexibility in installation and operation, eliminating the need for extensive wiring.",
         "body": [
             "Wireless Fire Alarm Systems use radio signals to communicate between detectors, alarms, and the control panel.",
@@ -168,7 +224,11 @@
         "id": 16,
         "image": "/images/project/Fire-alarm-system-4.png",
         "title": "Integrated Fire Alarm Systems",
-        "category": ["Fire Safety", "Alarm Systems", "Integrated"],
+        "category": [
+            "Fire Safety",
+            "Alarm Systems",
+            "Integrated"
+        ],
         "excerpt": "Integrated Fire Alarm Systems combine fire detection with other building systems, such as HVAC or lighting, for enhanced safety and efficiency.",
         "body": [
             "Integrated Fire Alarm Systems connect with other building systems to provide a coordinated response to fire emergencies.",
@@ -178,17 +238,40 @@
     {
         "id": 17,
         "image": "/images/project/project-10.png",
-        "title": "Product photography",
-        "category": ["2021"],
+        "title": "SACHIN PATEL",
+        "category": [
+            "BOARD OF DIRECTOR"
+        ],
         "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
-        "body": ["From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.", "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."]
+        "body": [
+            "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
+            "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
+        ]
     },
     {
         "id": 18,
         "image": "/images/project/project-11.png",
-        "title": "Illustration",
-        "category": ["2020"],
+        "title": "MANISH YADAV",
+        "category": [
+            "BOARD OF DIRECTOR"
+        ],
         "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
-        "body": ["From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.", "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."]
+        "body": [
+            "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
+            "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
+        ]
+    },
+    {
+        "id": 19,
+        "image": "/images/project/project-11.png",
+        "title": "Illustration",
+        "category": [
+            "2020"
+        ],
+        "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+        "body": [
+            "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
+            "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
+        ]
     }
 ]

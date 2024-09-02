@@ -12,12 +12,12 @@ const ProjectGridThree = () => {
 
     return (
         <>
-        <SEO title="Pipeline Fabrication & Erection" />
+        <SEO title="Fire Fighting Pump" />
         <ColorSwitcher />
         <main className="main-wrapper">
             <HeaderOne />
             <BcrumbBannerOne 
-                title="Pipeline <br> Fabrication & <br> Erection"
+                title="Fire Fighting Pump"
                 paragraph ="Offering expert pipeline fabrication and <br> erection services..
                 "
                 styleClass=""

@@ -22,7 +22,7 @@ const ProjectGridFive = () => {
                 paragraph ="At Fire Safety Solutions, we specialize in delivering end-to-end fire safety services, from design to maintenance.
                 "
                 styleClass=""
-                mainThumb="/images/banner/service-3.jpg"
+                mainThumb=""
             />
             <ProjectFive colSize ="row-cols-sm-2 row-cols-lg-3 row-cols-xl-4" parentClass="project-column-4" perPageShow="8"/>
             <CtaLayoutOne />

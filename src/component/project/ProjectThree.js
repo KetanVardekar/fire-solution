@@ -11,8 +11,8 @@ const ProjectThree = () => {
         <div className="section section-padding pb--80 pb_lg--40 pb_md--20 pb_sm--0">
         <div className="container">
             <SectionTitle 
-            subtitle="Featured Case study"
-            title="Photography &amp; drawing"
+            subtitle=""
+            title="OUR TEAM"
             description=""
             textAlignment="heading-left"
             textColor=""

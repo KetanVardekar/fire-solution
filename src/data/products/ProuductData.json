@@ -1,0 +1,431 @@
+[
+    {
+        "id": 1,
+        "image": "/images/products/fire-extinguisher-2kg.jpg",
+        "title": "ABC",
+        "category": ["2 KG"],
+        "excerpt": "Commercial Building Hydrant Systems are designed to meet the high demands of large buildings, ensuring robust and reliable fire protection.",
+        "body": [
+            "Commercial Building Hydrant Systems are engineered for high-rise buildings and large commercial spaces, offering robust fire suppression capabilities.",
+            "These systems are designed to provide immediate water access through high-pressure hydrants, ensuring effective firefighting even in demanding situations."
+        ]
+    },
+    {
+        "id": 2,
+        "image": "/images/products/fire-extinguisher-4kg.jpg",
+        "title": "ABC",
+        "category": ["4 KG"],
+        "excerpt": "Residential Fire Hydrant Systems are designed for residential areas, focusing on ease of use and reliable performance in emergencies.",
+        "body": [
+            "Residential Fire Hydrant Systems are optimized for smaller communities and residential areas, offering reliable performance with a focus on user-friendliness.",
+            "These systems ensure that water is readily available for firefighting in residential environments, providing peace of mind and safety."
+        ]
+    },
+    {
+        "id": 3,
+        "image": "/images/products/fire-extinguisher-6kg.jpg",
+        "title": "ABC",
+        "category": ["6 KG"],
+        "excerpt": "Automatic Sprinkler Systems are crucial for buildings, activating automatically to provide immediate fire suppression.",
+        "body": [
+            "Automatic Sprinkler Systems are designed to detect heat and activate sprinklers automatically, providing an efficient response to fires.",
+            "These systems are essential for safeguarding buildings by ensuring that water is distributed quickly and effectively upon detection of a fire."
+        ]
+    },
+    {
+        "id": 4,
+        "image": "/images/products/fire-extinguisher-9kg.jpg",
+        "title": "ABC",
+        "category": ["9 KG"],
+        "excerpt": "Pre-Action Sprinkler Systems offer a two-step activation process to prevent accidental discharge and provide targeted fire protection.",
+        "body": [
+            "Pre-Action Sprinkler Systems combine elements of both wet and dry systems, requiring confirmation of fire before water is released.",
+            "This system is ideal for environments where protecting sensitive equipment or materials is critical, ensuring controlled and precise water discharge."
+        ]
+    },
+    {
+        "id": 5,
+        "image": "/images/products/fire-extinguisher-co2-2kg.png",
+        "title": "CO2",
+        "category": ["2 KG"],
+        "excerpt": "Fire Fighting Equipment Supply provides essential tools and gear for effective fire response, ensuring safety and preparedness.",
+        "body": [
+            "Our Fire Fighting Equipment Supply includes a wide range of tools such as hoses, nozzles, and extinguishers, designed to support efficient firefighting efforts.",
+            "We offer high-quality equipment tailored to various fire scenarios, enhancing safety and operational readiness."
+        ]
+    },
+    {
+        "id": 6,
+        "image": "/images/products/fire-extinguisher-co2-3.2kg.JPg",
+        "title": "CO2",
+        "category": ["3.2 KG"],
+        "excerpt": "Fire Fighting Training and Consultation services provide essential knowledge and skills for effective fire management and safety compliance.",
+        "body": [
+            "Our Fire Fighting Training and Consultation services are designed to equip individuals and teams with the skills needed for efficient fire management.",
+            "We offer comprehensive training programs and expert consultation to ensure that your fire safety practices are up-to-date and effective."
+        ]
+    },
+    {
+        "id": 7,
+        "image": "/images/products/fire-extinguisher-co2-4.5kg.jpg",
+        "title": "CO2",
+        "category": ["4.5 KG"],
+        "excerpt": "Conventional Fire Alarm Systems offer straightforward detection and notification, suitable for smaller or less complex environments.",
+        "body": [
+            "Conventional Fire Alarm Systems are designed for simplicity and reliability, providing basic detection and alert functions for smaller buildings.",
+            "These systems activate alarms and notifications when fire or smoke is detected, ensuring prompt response to fire emergencies."
+        ]
+    },
+    {
+        "id": 8,
+        "image": "/images/products/fire-extinguisher-water-co2-50ltr.jpg",
+        "title": "Water CO2",
+        "category": ["9 Ltr"],
+        "excerpt": "Addressable Fire Alarm Systems provide detailed location information and advanced detection capabilities for larger and more complex installations.",
+        "body": [
+            "Addressable Fire Alarm Systems offer precise location data for fire detection, enabling quicker and more accurate responses in larger buildings.",
+            "These systems enhance safety by pinpointing the exact location of the alarm activation, streamlining emergency response efforts."
+        ]
+    },
+    {
+        "id": 9,
+        "image": "/images/products/fire-extinguisher-water-co2-50ltr.jpg",
+        "title": "Water CO2",
+        "category": ["50 ltr"],
+        "excerpt": "Personal Protective Equipment (PPE) includes essential gear for safety during fire emergencies, designed to protect individuals from hazards.",
+        "body": [
+            "Our Personal Protective Equipment (PPE) offerings include fire-resistant clothing, helmets, gloves, and other gear to ensure safety during fire response.",
+            "These items are designed to protect firefighters and emergency responders from the hazards of fire and high temperatures."
+        ]
+    },
+    {
+        "id": 10,
+        "image": "/images/products/mfoam-9ltr.jpg",
+        "title": "M. Foam",
+        "category": ["9 ltr"],
+        "excerpt": "Essential Safety Gear and Equipment are critical for protecting individuals during fire emergencies, offering comprehensive solutions for safety and readiness.",
+        "body": [
+            "Our Essential Safety Gear and Equipment range includes protective clothing, helmets, gloves, and other crucial items designed to safeguard individuals during fire emergencies.",
+            "We provide high-quality safety gear tailored for various scenarios, ensuring that both professionals and the general public are well-prepared and protected in case of a fire."
+        ]
+    },
+    {
+        "id": 11,
+        "image": "/images/products/mfoam-50ltr.jpg",
+        "title": "M. Foam",
+        "category": ["50 ltr"],
+        "excerpt": "PVC Pipelines are lightweight and resistant to corrosion, used in applications requiring low pressure and non-corrosive environments.",
+        "body": [
+            "PVC Pipelines are used for their lightweight properties and resistance to corrosion, making them ideal for applications involving low pressure or non-corrosive fluids.",
+            "Fabrication includes cutting and joining PVC pipes with various fittings to create a functional pipeline system."
+        ]
+    },
+    {
+        "id": 12,
+        "image": "/images/products/clean-agent-4kg.jpg",
+        "title": "Clean Agent",
+        "category": ["4 KG"],
+        "excerpt": "HDPE Pipelines are known for their flexibility, resistance to corrosion, and ability to handle a range of temperatures and pressures.",
+        "body": [
+            "HDPE (High-Density Polyethylene) Pipelines are flexible and resistant to corrosion, making them suitable for various applications, including water and gas distribution.",
+            "Fabrication involves heat fusion techniques to join HDPE pipes, ensuring leak-free and durable pipeline systems."
+        ]
+    },
+    {
+        "id": 13,
+        "image": "/images/products/clean-agent-6kg.jpg",
+        "title": "Clean Agent",
+        "category": ["6 KG"],
+        "excerpt": "Conventional Fire Alarm Systems provide basic fire detection by dividing the building into zones, with alarms activated per zone.",
+        "body": [
+            "Conventional Fire Alarm Systems use detectors and call points to monitor specific zones within a building.",
+            "When a detector or call point is activated, the alarm system triggers alerts for the entire zone, helping to locate the fire area."
+        ]
+    },
+    {
+        "id": 14,
+        "image": "/images/products/modular.jpg",
+        "title": "Modular",
+        "category": ["5 KG"],
+        "excerpt": "Addressable Fire Alarm Systems offer advanced detection with the ability to pinpoint the exact location of the fire or fault.",
+        "body": [
+            "Addressable Fire Alarm Systems use intelligent detectors and modules that communicate specific information to the control panel.",
+            "This system provides precise location information and allows for quicker and more targeted responses during a fire emergency."
+        ]
+    },
+    {
+        "id": 15,
+        "image": "/images/products/fire-hose-box.jpg",
+        "title": "Fire Hose Box",
+        "category": ["Single Door / Double Door"],
+        "excerpt": "Commercial Building Hydrant Systems are designed to meet the high demands of large buildings, ensuring robust and reliable fire protection.",
+        "body": [
+            "Commercial Building Hydrant Systems are engineered for high-rise buildings and large commercial spaces, offering robust fire suppression capabilities.",
+            "These systems are designed to provide immediate water access through high-pressure hydrants, ensuring effective firefighting even in demanding situations."
+        ]
+    },
+    {
+        "id": 16,
+        "image": "/images/products/canvas-hose.jpg",
+        "title": "Canvas Hose",
+        "category": ["Canvas Pipe , 15 mtr / 30 mtr"],
+        "excerpt": "Residential Fire Hydrant Systems are designed for residential areas, focusing on ease of use and reliable performance in emergencies.",
+        "body": [
+            "Residential Fire Hydrant Systems are optimized for smaller communities and residential areas, offering reliable performance with a focus on user-friendliness.",
+            "These systems ensure that water is readily available for firefighting in residential environments, providing peace of mind and safety."
+        ]
+    },
+    {
+        "id": 17,
+        "image": "/images/products/fire-hydrant-valve.jpg",
+        "title": "Fire Hydrant Valve",
+        "category": ["SS Single / Double Headed"],
+        "excerpt": "Automatic Sprinkler Systems are crucial for buildings, activating automatically to provide immediate fire suppression.",
+        "body": [
+            "Automatic Sprinkler Systems are designed to detect heat and activate sprinklers automatically, providing an efficient response to fires.",
+            "These systems are essential for safeguarding buildings by ensuring that water is distributed quickly and effectively upon detection of a fire."
+        ]
+    },
+    {
+        "id": 18,
+        "image": "/images/products/fire-brigade-inlet.jpg",
+        "title": "Fire Brigade Inlet",
+        "category": ["2 / 4 Way Inlet"],
+        "excerpt": "Pre-Action Sprinkler Systems offer a two-step activation process to prevent accidental discharge and provide targeted fire protection.",
+        "body": [
+            "Pre-Action Sprinkler Systems combine elements of both wet and dry systems, requiring confirmation of fire before water is released.",
+            "This system is ideal for environments where protecting sensitive equipment or materials is critical, ensuring controlled and precise water discharge."
+        ]
+    },
+    {
+        "id": 19,
+        "image": "/images/products/branch-pipe.jpg",
+        "title": "Branch Pipe",
+        "category": ["Short  / Long Branch Pipe"],
+        "excerpt": "Fire Fighting Equipment Supply provides essential tools and gear for effective fire response, ensuring safety and preparedness.",
+        "body": [
+            "Our Fire Fighting Equipment Supply includes a wide range of tools such as hoses, nozzles, and extinguishers, designed to support efficient firefighting efforts.",
+            "We offer high-quality equipment tailored to various fire scenarios, enhancing safety and operational readiness."
+        ]
+    },
+    {
+        "id": 20,
+        "image": "/images/products/water-foam-monitor.jpg",
+        "title": "Water Foam Monitor",
+        "category": ["N/A"],
+        "excerpt": "Fire Fighting Training and Consultation services provide essential knowledge and skills for effective fire management and safety compliance.",
+        "body": [
+            "Our Fire Fighting Training and Consultation services are designed to equip individuals and teams with the skills needed for efficient fire management.",
+            "We offer comprehensive training programs and expert consultation to ensure that your fire safety practices are up-to-date and effective."
+        ]
+    },
+    {
+        "id": 21,
+        "image": "/images/products/sprinkler.jpg",
+        "title": "Sprinkler",
+        "category": ["Pendant Sprinkler"],
+        "excerpt": "Conventional Fire Alarm Systems offer straightforward detection and notification, suitable for smaller or less complex environments.",
+        "body": [
+            "Conventional Fire Alarm Systems are designed for simplicity and reliability, providing basic detection and alert functions for smaller buildings.",
+            "These systems activate alarms and notifications when fire or smoke is detected, ensuring prompt response to fire emergencies."
+        ]
+    },
+    {
+        "id": 22,
+        "image": "/images/products/fire-extinguisher-2kg.jpg",
+        "title": "Fire Hose Reel",
+        "category": ["Wall Mounted / Swing Type"],
+        "excerpt": "Addressable Fire Alarm Systems provide detailed location information and advanced detection capabilities for larger and more complex installations.",
+        "body": [
+            "Addressable Fire Alarm Systems offer precise location data for fire detection, enabling quicker and more accurate responses in larger buildings.",
+            "These systems enhance safety by pinpointing the exact location of the alarm activation, streamlining emergency response efforts."
+        ]
+    },
+    {
+        "id": 23,
+        "image": "/images/products/mcp.jpg",
+        "title": "MCP",
+        "category": ["MS  / ABS type"],
+        "excerpt": "Fire Fighting Equipment Supply provides essential tools and gear for effective fire response, ensuring safety and preparedness.",
+        "body": [
+            "Our Fire Fighting Equipment Supply includes a wide range of tools such as hoses, nozzles, and extinguishers, designed to support efficient firefighting efforts.",
+            "We offer high-quality equipment tailored to various fire scenarios, enhancing safety and operational readiness."
+        ]
+    },
+    {
+        "id": 24,
+        "image": "/images/project/Fire-alarm-system-1.jpg",
+        "title": "Fire Alarm Panel",
+        "category": ["2 / 4 / 8 / 16 Zone"],
+        "excerpt": "Fire Fighting Training and Consultation services provide essential knowledge and skills for effective fire management and safety compliance.",
+        "body": [
+            "Our Fire Fighting Training and Consultation services are designed to equip individuals and teams with the skills needed for efficient fire management.",
+            "We offer comprehensive training programs and expert consultation to ensure that your fire safety practices are up-to-date and effective."
+        ]
+    },
+    {
+        "id": 25,
+        "image": "/images/project/Fire-alarm-system-2.jpg",
+        "title": "Detector",
+        "category": ["Smoke / Heat"],
+        "excerpt": "Conventional Fire Alarm Systems offer straightforward detection and notification, suitable for smaller or less complex environments.",
+        "body": [
+            "Conventional Fire Alarm Systems are designed for simplicity and reliability, providing basic detection and alert functions for smaller buildings.",
+            "These systems activate alarms and notifications when fire or smoke is detected, ensuring prompt response to fire emergencies."
+        ]
+    },
+    {
+        "id": 26,
+        "image": "/images/products/fire-hooter.jpg",
+        "title": "Hooter",
+        "category": ["Ms /  ABS type"],
+        "excerpt": "Addressable Fire Alarm Systems provide detailed location information and advanced detection capabilities for larger and more complex installations.",
+        "body": [
+            "Addressable Fire Alarm Systems offer precise location data for fire detection, enabling quicker and more accurate responses in larger buildings.",
+            "These systems enhance safety by pinpointing the exact location of the alarm activation, streamlining emergency response efforts."
+        ]
+    },
+    {
+        "id": 27,
+        "image": "/images/products/main-fire-pump.jpg",
+        "title": "Main Fire Pump",
+        "category": [""],
+        "excerpt": "Fire Fighting Training and Consultation services provide essential knowledge and skills for effective fire management and safety compliance.",
+        "body": [
+            "Our Fire Fighting Training and Consultation services are designed to equip individuals and teams with the skills needed for efficient fire management.",
+            "We offer comprehensive training programs and expert consultation to ensure that your fire safety practices are up-to-date and effective."
+        ]
+    },
+    {
+        "id": 28,
+        "image": "/images/products/jockey-fire-pump.jpg",
+        "title": "Jockey Pump",
+        "category": [""],
+        "excerpt": "Conventional Fire Alarm Systems offer straightforward detection and notification, suitable for smaller or less complex environments.",
+        "body": [
+            "Conventional Fire Alarm Systems are designed for simplicity and reliability, providing basic detection and alert functions for smaller buildings.",
+            "These systems activate alarms and notifications when fire or smoke is detected, ensuring prompt response to fire emergencies."
+        ]
+    },
+    {
+        "id": 29,
+        "image": "/images/products/diesel-engine-pump.jpg",
+        "title": "Diesel Engine Pump",
+        "category": [""],
+        "excerpt": "Addressable Fire Alarm Systems provide detailed location information and advanced detection capabilities for larger and more complex installations.",
+        "body": [
+            "Addressable Fire Alarm Systems offer precise location data for fire detection, enabling quicker and more accurate responses in larger buildings.",
+            "These systems enhance safety by pinpointing the exact location of the alarm activation, streamlining emergency response efforts."
+        ]
+    },
+    {
+        "id": 30,
+        "image": "/images/products/electric-control-panel.jpg",
+        "title": "Electric Control Panel",
+        "category": [""],
+        "excerpt": "Addressable Fire Alarm Systems provide detailed location information and advanced detection capabilities for larger and more complex installations.",
+        "body": [
+            "Addressable Fire Alarm Systems offer precise location data for fire detection, enabling quicker and more accurate responses in larger buildings.",
+            "These systems enhance safety by pinpointing the exact location of the alarm activation, streamlining emergency response efforts."
+        ]
+    },
+    {
+        "id": 31,
+        "image": "/images/products/speed-breakers.jpg",
+        "title": "Speed Breakers",
+        "category": [""],
+        "excerpt": "Commercial Building Hydrant Systems are designed to meet the high demands of large buildings, ensuring robust and reliable fire protection.",
+        "body": [
+            "Commercial Building Hydrant Systems are engineered for high-rise buildings and large commercial spaces, offering robust fire suppression capabilities.",
+            "These systems are designed to provide immediate water access through high-pressure hydrants, ensuring effective firefighting even in demanding situations."
+        ]
+    },
+    {
+        "id": 32,
+        "image": "/images/products/safety-cone.jpg",
+        "title": "Safety Cone",
+        "category": [""],
+        "excerpt": "Residential Fire Hydrant Systems are designed for residential areas, focusing on ease of use and reliable performance in emergencies.",
+        "body": [
+            "Residential Fire Hydrant Systems are optimized for smaller communities and residential areas, offering reliable performance with a focus on user-friendliness.",
+            "These systems ensure that water is readily available for firefighting in residential environments, providing peace of mind and safety."
+        ]
+    },
+    {
+        "id": 33,
+        "image": "/images/products/corner-guard.jpg",
+        "title": "Corner Guard",
+        "category": [""],
+        "excerpt": "Automatic Sprinkler Systems are crucial for buildings, activating automatically to provide immediate fire suppression.",
+        "body": [
+            "Automatic Sprinkler Systems are designed to detect heat and activate sprinklers automatically, providing an efficient response to fires.",
+            "These systems are essential for safeguarding buildings by ensuring that water is distributed quickly and effectively upon detection of a fire."
+        ]
+    },
+    {
+        "id": 34,
+        "image": "/images/products/road-studs.jpg",
+        "title": "Road Studs",
+        "category": [""],
+        "excerpt": "Pre-Action Sprinkler Systems offer a two-step activation process to prevent accidental discharge and provide targeted fire protection.",
+        "body": [
+            "Pre-Action Sprinkler Systems combine elements of both wet and dry systems, requiring confirmation of fire before water is released.",
+            "This system is ideal for environments where protecting sensitive equipment or materials is critical, ensuring controlled and precise water discharge."
+        ]
+    },
+    {
+        "id": 35,
+        "image": "/images/products/cctv.jpg",
+        "title": "CCTV Camera",
+        "category": [""],
+        "excerpt": "Fire Fighting Equipment Supply provides essential tools and gear for effective fire response, ensuring safety and preparedness.",
+        "body": [
+            "Our Fire Fighting Equipment Supply includes a wide range of tools such as hoses, nozzles, and extinguishers, designed to support efficient firefighting efforts.",
+            "We offer high-quality equipment tailored to various fire scenarios, enhancing safety and operational readiness."
+        ]
+    },
+    {
+        "id": 36,
+        "image": "/images/products/safety-helmet.jpg",
+        "title": "Safety Helmet / Shoes",
+        "category": [""],
+        "excerpt": "Fire Fighting Training and Consultation services provide essential knowledge and skills for effective fire management and safety compliance.",
+        "body": [
+            "Our Fire Fighting Training and Consultation services are designed to equip individuals and teams with the skills needed for efficient fire management.",
+            "We offer comprehensive training programs and expert consultation to ensure that your fire safety practices are up-to-date and effective."
+        ]
+    },
+    {
+        "id": 37,
+        "image": "/images/products/solar-signal-light.jpg",
+        "title": "Solar Signal Light",
+        "category": [""],
+        "excerpt": "Conventional Fire Alarm Systems offer straightforward detection and notification, suitable for smaller or less complex environments.",
+        "body": [
+            "Conventional Fire Alarm Systems are designed for simplicity and reliability, providing basic detection and alert functions for smaller buildings.",
+            "These systems activate alarms and notifications when fire or smoke is detected, ensuring prompt response to fire emergencies."
+        ]
+    },
+    {
+        "id": 38,
+        "image": "/images/products/convex-mirror.jpg",
+        "title": "Convex Mirror",
+        "category": [""],
+        "excerpt": "Addressable Fire Alarm Systems provide detailed location information and advanced detection capabilities for larger and more complex installations.",
+        "body": [
+            "Addressable Fire Alarm Systems offer precise location data for fire detection, enabling quicker and more accurate responses in larger buildings.",
+            "These systems enhance safety by pinpointing the exact location of the alarm activation, streamlining emergency response efforts."
+        ]
+    },
+    {
+        "id": 39,
+        "image": "/images/products/solar-light.jpg",
+        "title": "Solar Light",
+        "category": [""],
+        "excerpt": "Personal Protective Equipment (PPE) includes essential gear for safety during fire emergencies, designed to protect individuals from hazards.",
+        "body": [
+            "Our Personal Protective Equipment (PPE) offerings include fire-resistant clothing, helmets, gloves, and other gear to ensure safety during fire response.",
+            "These items are designed to protect firefighters and emergency responders from the hazards of fire and high temperatures."
+        ]
+    }
+]

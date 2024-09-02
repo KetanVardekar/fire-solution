@@ -5,21 +5,22 @@ import HeaderOne from '../../common/header/HeaderOne';
 import CtaLayoutOne from '../cta/CtaLayoutOne';
 import FooterOne from '../../common/footer/FooterOne';
 import SEO from '../../common/SEO';
-import OurWorkProjects from './OurWorkProjects';
+import OurWorkProjects from './OurProducts';
+import OurProducts from './OurProducts';
 
 
-const OurWork = () => {
+const Products = () => {
 	
 
 	return (
 		<>
-        <SEO title="Our Work" />
+        <SEO title="Our Products" />
         <ColorSwitcher />
 			<main className="main-wrapper">
             <HeaderOne />
             
            
-            <OurWorkProjects parentClass="bg-color-light"/>
+            <OurProducts colSize="col-xl-3 col-lg-4 col-md-6" itemShow="12" columnGap="row-15" parentClass="project-column-4"/>
             
             <CtaLayoutOne />
             <FooterOne parentClass="" />
@@ -28,4 +29,4 @@ const OurWork = () => {
     );
 }
 
-export default OurWork;
+export default Products;

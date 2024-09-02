@@ -7,31 +7,36 @@ const filters = [
 	{
 		id: 1,
 		label: "Fire Hydrant System",
-		range: [1, 4]
-    },
-    {
+		range: [1, 2]
+	},
+	{
 		id: 2,
 		label: "Fire Sprinkler System",
-		range: [5, 8]
-    },
-    {
+		range: [3, 4]
+	},
+	{
 		id: 3,
-		label: "Pipeline Fabrication & Erection",
-		range: [9, 12]
-    },
+		label: "Fire Fighting Pump",
+		range: [5, 6]
+	},
 	{
 		id: 4,
 		label: "Fire Alarm System",
-		range: [13, 16]
-    }
+		range: [7, 8]
+	},
+	{
+		id: 5,
+		label: "Safety Goods",
+		range: [9, 10]
+	}
 ];
 
 const AllData = ProjectData;
 
 const ProjectOne = ({ parentClass, colSize, itemShow, columnGap }) => {
 	const [getAllItems] = useState(AllData);
-	const [visiableProject] = useState(itemShow ? itemShow : 4);
-    const [activeFilter, setActiveFilter] = useState(filters[0].label);
+	const [visiableProject] = useState(itemShow ? itemShow : 6);
+	const [activeFilter, setActiveFilter] = useState(filters[0].label);
 	const [visibleItems, setVisibleItems] = useState([]);
 
 	useEffect(() => {
@@ -39,13 +44,13 @@ const ProjectOne = ({ parentClass, colSize, itemShow, columnGap }) => {
 	}, [getAllItems]);
 
 	const handleChange = (e) => {
-        e.preventDefault();
+		e.preventDefault();
 		const target = e.target.textContent;
 		const filter = filters.find(f => f.label === target);
 
-        setActiveFilter(target);
+		setActiveFilter(target);
 
-        if (filter) {
+		if (filter) {
 			const tempData = getAllItems.filter(item => item.id >= filter.range[0] && item.id <= filter.range[1]);
 			setVisibleItems(tempData);
 		}
@@ -54,14 +59,14 @@ const ProjectOne = ({ parentClass, colSize, itemShow, columnGap }) => {
 	return (
 		<>
 			<div className={`section section-padding-2 ${parentClass ? parentClass : ""}`}>
-                <div className="container">
-                    <SectionTitle 
-                        subtitle="Our Work"
-                        title="Some of our finest work."
-                        textAlignment="heading-left mb--40"
-                        textColor=""
-                    />
-                    <div className="isotope-button isotope-project-btn">
+				<div className="container">
+					<SectionTitle
+						subtitle="Our Work"
+						title="Some of our finest work."
+						textAlignment="heading-left mb--40"
+						textColor=""
+					/>
+					<div className="isotope-button isotope-project-btn">
 						{filters.map(filter => (
 							<button
 								onClick={handleChange}
@@ -75,19 +80,19 @@ const ProjectOne = ({ parentClass, colSize, itemShow, columnGap }) => {
 					<div className={`row ${columnGap ? columnGap : "row-35"}`}>
 						{visibleItems.map(data => (
 							<div className={colSize ? colSize : "col-md-6"} key={data.id}>
-								<ProjectPropOne projectStyle="" portfolio={data}/>
+								<ProjectPropOne projectStyle="" portfolio={data} />
 							</div>
 						))}
 					</div>
-                </div>
-                <ul className="shape-group-7 list-unstyled">
-                    <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/circle-2.png"} alt="circle" /></li>
-                    <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/bubble-2.png"} alt="Line" /></li>
-                    <li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/bubble-1.png"} alt="Line" /></li>
-                </ul>
-            </div>
+				</div>
+				<ul className="shape-group-7 list-unstyled">
+					<li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/circle-2.png"} alt="circle" /></li>
+					<li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/bubble-2.png"} alt="Line" /></li>
+					<li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/bubble-1.png"} alt="Line" /></li>
+				</ul>
+			</div>
 		</>
-    );
+	);
 }
 
 export default ProjectOne;

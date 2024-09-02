@@ -1,34 +1,39 @@
 import React, { useState, useEffect } from 'react';
-import ProjectPropOne from './itemProp/ProjectPropOne';
 import SectionTitle from '../../elements/section-title/SectionTitle';
-import ProjectData from "../../data/project/ProjectData.json";
+import ProductData from "../../data/products/ProuductData.json";
+import ProductPropOne from './itemProp/ProductPropOne';
 
 const filters = [
 	{
 		id: 1,
-		label: "Fire Hydrant System",
-		range: [1, 4]
-    },
-    {
+		label: "Fire Extinguishers",
+		range: [1, 14]
+	},
+	{
 		id: 2,
-		label: "Fire Sprinkler System",
-		range: [5, 8]
-    },
-    {
+		label: "Fire Hydrant Equipments",
+		range: [15, 22]
+	},
+	{
 		id: 3,
-		label: "Pipeline Fabrication & Erection",
-		range: [9, 12]
-    },
+		label: "Fire Alarm Equipments",
+		range: [23, 26]
+	},
 	{
 		id: 4,
-		label: "Fire Alarm System",
-		range: [13, 16]
-    }
+		label: "Fire Fighting Pump",
+		range: [27, 30]
+	},
+	{
+		id: 5,
+		label: "Safety Goods",
+		range: [31, 39]
+	}
 ];
 
-const AllData = ProjectData;
+const AllData = ProductData;
 
-const OurWorkProjects = ({ parentClass, colSize, itemShow, columnGap }) => {
+const OurProducts = ({ parentClass, colSize, itemShow, columnGap }) => {
 	const [getAllItems] = useState(AllData);
 	const [visiableProject] = useState(itemShow ? itemShow : 4);
     const [activeFilter, setActiveFilter] = useState(filters[0].label);
@@ -56,8 +61,8 @@ const OurWorkProjects = ({ parentClass, colSize, itemShow, columnGap }) => {
 			<div className={`section our-work-padding-2 ${parentClass ? parentClass : ""}`}>
                 <div className="container">
                     <SectionTitle 
-                        subtitle="Our Work"
-                        title="Some of our finest work."
+                        subtitle="Our Products"
+                        title="Some of our Best Products."
                         textAlignment="heading-left mb--40"
                         textColor=""
                     />
@@ -75,7 +80,7 @@ const OurWorkProjects = ({ parentClass, colSize, itemShow, columnGap }) => {
 					<div className={`row ${columnGap ? columnGap : "row-35"}`}>
 						{visibleItems.map(data => (
 							<div className={colSize ? colSize : "col-md-6"} key={data.id}>
-								<ProjectPropOne projectStyle="" portfolio={data}/>
+								<ProductPropOne projectStyle="" portfolio={data}/>
 							</div>
 						))}
 					</div>
@@ -90,4 +95,4 @@ const OurWorkProjects = ({ parentClass, colSize, itemShow, columnGap }) => {
     );
 }
 
-export default OurWorkProjects;
+export default OurProducts;
