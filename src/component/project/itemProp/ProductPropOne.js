@@ -9,14 +9,25 @@ const ProductPropOne = ({ projectStyle, portfolio }) => {
 			flexDirection: 'column',
 			alignItems: 'center',
 			textAlign: 'center',
+			backgroundColor: '#fff',
+			borderRadius: '12px',
+			boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+			padding: '20px',
+			transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+			cursor: 'pointer',
+		},
+		projectGridHover: {
+			transform: 'scale(1.05)',
+			boxShadow: '0 6px 12px rgba(0, 0, 0, 0.2)',
 		},
 		thumbnail: {
 			width: '100%',
-			textAlign: 'center',
+			marginBottom: '15px',
 		},
 		img: {
 			maxWidth: '100%',
 			height: 'auto',
+			borderRadius: '10px',
 		},
 		content: {
 			display: 'flex',
@@ -25,26 +36,48 @@ const ProductPropOne = ({ projectStyle, portfolio }) => {
 			textAlign: 'center',
 		},
 		title: {
-			margin: '0.5rem 0',
+			fontSize: '1.5rem',
+			fontWeight: '600',
+			margin: '10px 0',
+			color: '#333',
 		},
 		subtitle: {
-			margin: '0.5rem 0',
+			fontSize: '1rem',
+			marginBottom: '15px',
+			color: '#666',
 		},
 		buttonContainer: {
-			margin: '1rem 0',
+			margin: '20px 0 0',
+			width: '100%',
+			textAlign: 'center',
 		},
 		button: {
-			padding: '0.5rem 1rem',
+			padding: '12px 20px',
 			border: 'none',
-			borderRadius: '15px',
-			backgroundColor: '#007bff', // Adjust color as needed
+			borderRadius: '25px',
+			backgroundColor: '#ff5722', // More vibrant button color
 			color: '#fff',
-			cursor: 'pointer',
+			fontSize: '1rem',
+			fontWeight: 'bold',
+			transition: 'background-color 0.3s ease, box-shadow 0.3s ease',
+		},
+		buttonHover: {
+			backgroundColor: '#e64a19',
+			boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
 		},
 	};
 
+	// Add hover state on the card and button
+	const [hover, setHover] = React.useState(false);
+	const [buttonHover, setButtonHover] = React.useState(false);
+
 	return (
-		<div className={`project-grid ${projectStyle}`} style={styles.projectGrid}>
+		<div
+			className={`project-grid ${projectStyle}`}
+			style={{ ...styles.projectGrid, ...(hover && styles.projectGridHover) }}
+			onMouseEnter={() => setHover(true)}
+			onMouseLeave={() => setHover(false)}
+		>
 			<div className="thumbnail" style={styles.thumbnail}>
 				<Link to={process.env.PUBLIC_URL + `/project-details/${slugify(portfolio.title)}`}>
 					<img src={process.env.PUBLIC_URL + portfolio.image} alt="icon" style={styles.img} />
@@ -65,23 +98,21 @@ const ProductPropOne = ({ projectStyle, portfolio }) => {
 						<div>No Categories</div>
 					)}
 				</div>
-				{/* <div className="center-text" style={styles.buttonContainer}>
+				<div className="buttonContainer" style={styles.buttonContainer}>
 					<button
 						type="submit"
 						className="axil-btn btn-fill-primary w-auto btn-primary"
-						name="submit-btn"
-						onClick={() => window.location.href = `${process.env.PUBLIC_URL}/contact`}
-						style={styles.button}
+						style={{ ...styles.button, ...(buttonHover && styles.buttonHover) }}
+						onMouseEnter={() => setButtonHover(true)}
+						onMouseLeave={() => setButtonHover(false)}
+						onClick={() => (window.location.href = `${process.env.PUBLIC_URL}/contact`)}
 					>
 						ENQUIRY US
 					</button>
-				</div> */}
-				<div style={{ clear: 'both' }} className="center-text">
-						<button type="submit" className="axil-btn btn-fill-primary w-auto btn-primary" name="submit-btn" onClick={() => window.location.href = `${process.env.PUBLIC_URL}/contact`}>ENQUIRY US</button>
-					</div>
+				</div>
 			</div>
 		</div>
 	);
-}
+};
 
 export default ProductPropOne;
