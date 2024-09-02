@@ -86,15 +86,15 @@ const ProductPropOne = ({ projectStyle, portfolio }) => {
 			onMouseLeave={() => setHover(false)}
 		>
 			<div className="thumbnail" style={styles.thumbnail}>
-				<Link to={process.env.PUBLIC_URL + `/project-details/${slugify(portfolio.title)}`}>
+				
 					<img src={process.env.PUBLIC_URL + portfolio.image} alt="icon" style={styles.img} />
-				</Link>
+				
 			</div>
 			<div className="content" style={styles.content}>
 				<h4 className="title" style={styles.title}>
-					<Link to={process.env.PUBLIC_URL + `/project-details/${slugify(portfolio.title)}`}>
+					
 						{portfolio.title}
-					</Link>
+					
 				</h4>
 				<div className="subtitle" style={styles.subtitle}>
 					{portfolio.category.length > 0 ? (

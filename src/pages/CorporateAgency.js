@@ -16,7 +16,7 @@ const CorporateAgency = () => {
 
     return (
         <>
-        <SEO title="FIRE SAFETY"/>
+        <SEO title="SUPER INDIA BUILDPRO PVT. LTD."/>
         <ColorSwitcher />
         <main className="main-wrapper">
         <HeaderFour />

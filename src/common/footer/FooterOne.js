@@ -33,7 +33,7 @@ const FooterOne = ({ parentClass }) => {
                             <div className="footer-widget border-end">
                                 <div className="map-container" style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
                                     <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.2668503407253!2d72.76836657353616!3d21.1417760805359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04d9907bda1ef%3A0x246d208297b685e1!2sRapid%20Safety%20Solutions%20Pvt%20ltd!5e0!3m2!1sen!2sin!4v1724486814096!5m2!1sen!2sin"
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.001358781479!2d72.79712277431088!3d21.192104982150035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04dd415abe8c5%3A0xb1bce9a312da88f4!2sSUPER%20INDIA%20BUILDPRO%20PRIVATE%20LIMITED!5e0!3m2!1sen!2sin!4v1725300619753!5m2!1sen!2sin"
                                         style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0, borderRadius: '15px' }}
                                         allowFullScreen=""
                                         loading="lazy"
@@ -88,7 +88,7 @@ const FooterOne = ({ parentClass }) => {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="footer-copyright">
-                                <span className="copyright-text">© {new Date().getFullYear()}. All rights reserved by <a href="https://axilthemes.com/">Fire Safety Solutions</a>.</span>
+                                <span className="copyright-text">© {new Date().getFullYear()}. All rights reserved by <a href="https://axilthemes.com/">SUPER INDIA BUILDPRO PVT. LTD.</a>.</span>
                             </div>
                         </div>
                         

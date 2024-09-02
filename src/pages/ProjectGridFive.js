@@ -19,7 +19,7 @@ const ProjectGridFive = () => {
             <HeaderOne />
             <BcrumbBannerOne 
                 title="About Us"
-                paragraph ="At Fire Safety Solutions, we specialize in delivering end-to-end fire safety services, from design to maintenance.
+                paragraph ="At SUPER INDIA BUILDPRO PVT. LTD., we specialize in delivering end-to-end fire safety services, from design to maintenance.
                 "
                 styleClass=""
                 mainThumb=""

@@ -27,9 +27,9 @@ const PrivacyPolicy = () => {
                                         <h5 className="title">Effective Date: August 10th, 2024</h5>
                                     </div>
                                     <h4>GDPR Compliance</h4>
-                                    <p>At Fire Safety Solutions, we are committed to protecting your privacy and ensuring compliance with the General Data Protection Regulation (GDPR). This policy outlines how we collect, use, and protect your personal data.</p>
-                                    <h4>About Fire Safety Solutions</h4>
-                                    <p>Fire Safety Solutions is dedicated to delivering top-notch fire safety solutions and services. Our contact information is provided below for any inquiries regarding this Privacy Policy: <a href="mailto:example@company.com">example@company.com</a></p>
+                                    <p>At SUPER INDIA BUILDPRO PVT. LTD., we are committed to protecting your privacy and ensuring compliance with the General Data Protection Regulation (GDPR). This policy outlines how we collect, use, and protect your personal data.</p>
+                                    <h4>About SUPER INDIA BUILDPRO PVT. LTD.</h4>
+                                    <p>SUPER INDIA BUILDPRO PVT. LTD. is dedicated to delivering top-notch fire safety solutions and services. Our contact information is provided below for any inquiries regarding this Privacy Policy: <a href="mailto:example@company.com">example@company.com</a></p>
                                     <h4>When We Collect Personal Data</h4>
                                     <p>We collect personal data when you interact with our website, request information, or engage with our services. This may include your name, email address, and other contact details.</p>
                                     <h4>Why We Collect and Use Personal Data</h4>
