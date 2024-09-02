@@ -36,7 +36,7 @@ const AllData = ProductData;
 const OurProducts = ({ parentClass, colSize, itemShow, columnGap }) => {
 	const [getAllItems] = useState(AllData);
 	const [visiableProject] = useState(itemShow ? itemShow : 4);
-    const [activeFilter, setActiveFilter] = useState(filters[0].label);
+	const [activeFilter, setActiveFilter] = useState(filters[0].label);
 	const [visibleItems, setVisibleItems] = useState([]);
 
 	useEffect(() => {
@@ -44,13 +44,13 @@ const OurProducts = ({ parentClass, colSize, itemShow, columnGap }) => {
 	}, [getAllItems]);
 
 	const handleChange = (e) => {
-        e.preventDefault();
+		e.preventDefault();
 		const target = e.target.textContent;
 		const filter = filters.find(f => f.label === target);
 
-        setActiveFilter(target);
+		setActiveFilter(target);
 
-        if (filter) {
+		if (filter) {
 			const tempData = getAllItems.filter(item => item.id >= filter.range[0] && item.id <= filter.range[1]);
 			setVisibleItems(tempData);
 		}
@@ -59,14 +59,14 @@ const OurProducts = ({ parentClass, colSize, itemShow, columnGap }) => {
 	return (
 		<>
 			<div className={`section our-work-padding-2 ${parentClass ? parentClass : ""}`}>
-                <div className="container">
-                    <SectionTitle 
-                        subtitle="Our Products"
-                        title="Some of our Best Products."
-                        textAlignment="heading-left mb--40"
-                        textColor=""
-                    />
-                    <div className="isotope-button isotope-project-btn">
+				<div className="container">
+					<SectionTitle
+						subtitle="Our Products"
+						title="Some of our Best Products."
+						textAlignment="heading-left mb--40"
+						textColor=""
+					/>
+					<div className="isotope-button isotope-project-btn">
 						{filters.map(filter => (
 							<button
 								onClick={handleChange}
@@ -80,19 +80,32 @@ const OurProducts = ({ parentClass, colSize, itemShow, columnGap }) => {
 					<div className={`row ${columnGap ? columnGap : "row-35"}`}>
 						{visibleItems.map(data => (
 							<div className={colSize ? colSize : "col-md-6"} key={data.id}>
-								<ProductPropOne projectStyle="" portfolio={data}/>
+								<div
+									style={{
+										display: 'flex',
+										justifyContent: 'center',
+										alignItems: 'center',
+										width: '100%',
+										padding: '10px',
+										boxSizing: 'border-box',
+									}}
+								>
+									<ProductPropOne projectStyle="" portfolio={data} />
+								</div>
+
+								{/* <ProductPropOne projectStyle="" portfolio={data} /> */}
 							</div>
 						))}
 					</div>
-                </div>
-                <ul className="shape-group-7 list-unstyled">
-                    <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/circle-2.png"} alt="circle" /></li>
-                    <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/bubble-2.png"} alt="Line" /></li>
-                    <li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/bubble-1.png"} alt="Line" /></li>
-                </ul>
-            </div>
+				</div>
+				<ul className="shape-group-7 list-unstyled">
+					<li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/circle-2.png"} alt="circle" /></li>
+					<li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/bubble-2.png"} alt="Line" /></li>
+					<li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/bubble-1.png"} alt="Line" /></li>
+				</ul>
+			</div>
 		</>
-    );
+	);
 }
 
 export default OurProducts;
