@@ -138,7 +138,6 @@ const ProductPropOne = ({ projectStyle, portfolio }) => {
 			padding: '6px',
 			fontSize: '0.85rem',
 			marginBottom: '8px',
-			height:'45px',
 			resize: 'none',
 		},
 		submitButton: {
