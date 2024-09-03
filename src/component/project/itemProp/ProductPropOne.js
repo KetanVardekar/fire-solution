@@ -113,16 +113,20 @@ const ProductPropOne = ({ projectStyle, portfolio }) => {
 		formGroup: {
 			marginBottom: '8px',
 		},
+		label: {
+			fontSize: '13px'
+		},
 		formControl: {
 			width: '100%',
 			padding: '6px',
 			fontSize: '0.85rem',
 			marginBottom: '8px',
+			height: '40px'
 		},
 		formRow: {
 			display: 'flex',
-			justifyContent: 'space-between',
-			gap: '10px',  // Space between name and email fields
+			flexDirection: 'column', // Stack fields vertically
+			gap: '10px',  // Space between fields
 		},
 		formControlHalf: {
 			padding: '6px',
@@ -134,6 +138,7 @@ const ProductPropOne = ({ projectStyle, portfolio }) => {
 			padding: '6px',
 			fontSize: '0.85rem',
 			marginBottom: '8px',
+			height:'45px',
 			resize: 'none',
 		},
 		submitButton: {
@@ -143,11 +148,11 @@ const ProductPropOne = ({ projectStyle, portfolio }) => {
 			color: '#fff',
 			border: 'none',
 			cursor: 'pointer',
-			fontSize: '0.85rem',
+			fontSize: '0.80rem',
 		},
 		modalContent: {
 			marginTop: '10px',
-			
+			minHeight: '300px', // Ensure consistent height
 		},
 	};
 
@@ -190,36 +195,34 @@ const ProductPropOne = ({ projectStyle, portfolio }) => {
 			</div>
 
 			{/* Modal for Enquiry Form */}
-			
 			<Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} title="Enquiry Form" >
-				<form ref={form} onSubmit={sendEmail} className="axil-contact-form">
-					<div style={formStyles.formRow}>
+				<div style={formStyles.modalContent}>
+					<form ref={form} onSubmit={sendEmail} className="axil-contact-form">
 						<div className="form-group" style={formStyles.formGroup}>
-							<label>Name</label>
-							<input type="text" className="form-control" name="contact-name" placeholder='Enter Name' required style={formStyles.formControlHalf} />
+							<label  style={formStyles.label}>Name</label>
+							<input type="text" className="form-control" name="contact-name" placeholder='Enter Name' required style={formStyles.formControl} />
 						</div>
 						<div className="form-group" style={formStyles.formGroup}>
-							<label>Email</label>
-							<input type="email" className="form-control" name="contact-email" placeholder='Enter Email' required style={formStyles.formControlHalf} />
+							<label style={formStyles.label}>Email</label>
+							<input type="email" className="form-control" name="contact-email" placeholder='Enter Email' required style={formStyles.formControl} />
 						</div>
-					</div>
-					<div className="form-group" style={formStyles.formGroup}>
-						<label>Phone</label>
-						<input type="tel" className="form-control" name="contact-phone" placeholder='Enter Phone' required style={formStyles.formControl} />
-					</div>
-					<div className="form-group" style={formStyles.formGroup}>
-						<label>Message</label>
-						<textarea className="form-control" name="contact-message" rows="3" placeholder='Enter Message' style={formStyles.textarea} />
-					</div>
-					<div className="form-group" style={formStyles.formGroup}>
-						<button type="submit" style={formStyles.submitButton}>Submit</button>
-					</div>
-					<div className="form-group" style={formStyles.formGroup}>
-						{result ? <Result /> : null}
-					</div>
-				</form>
+						<div className="form-group" style={formStyles.formGroup}>
+							<label style={formStyles.label}>Phone</label>
+							<input type="tel" className="form-control" name="contact-phone" placeholder='Enter Phone' required style={formStyles.formControl} />
+						</div>
+						<div className="form-group" style={formStyles.formGroup}>
+							<label style={formStyles.label}>Message</label>
+							<textarea className="form-control" name="contact-message" rows="3" placeholder='Enter Message' style={formStyles.textarea} />
+						</div>
+						<div className="form-group" style={formStyles.formGroup}>
+							<button type="submit" style={formStyles.submitButton}>Submit</button>
+						</div>
+						<div className="form-group" style={formStyles.formGroup}>
+							{result ? <Result /> : null}
+						</div>
+					</form>
+				</div>
 			</Modal>
-			
 		</>
 	);
 };
