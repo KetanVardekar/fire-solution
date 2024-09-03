@@ -191,7 +191,7 @@ const ProductPropOne = ({ projectStyle, portfolio }) => {
 
 			{/* Modal for Enquiry Form */}
 			
-			<Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} title="Pricing Enquiry Form" >
+			<Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} title="Enquiry Form" >
 				<form ref={form} onSubmit={sendEmail} className="axil-contact-form">
 					<div style={formStyles.formRow}>
 						<div className="form-group" style={formStyles.formGroup}>
