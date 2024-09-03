@@ -2,28 +2,28 @@ import React from 'react';
 
 const Data = [
     {
-        image: "/images/brand/brand-logo-1.jpg"
+        image: "/images/brand/AIIMS.jpg"
     },
     {
-        image: "/images/brand/brand-logo-2.png"
+        image: "/images/brand/AUDA.jpg"
     },
     {
-        image: "/images/brand/brand-logo-3.png"
+        image: "/images/brand/gujsarkar.jpg"
     },
     {
-        image: "/images/brand/brand-logo-4.png"
+        image: "/images/brand/CONCOR.png"
     },
     {
-        image: "/images/brand/brand-logo-5.png"
+        image: "/images/brand/PIU.JPG"
     },
     {
-        image: "/images/brand/brand-logo-6.png"
+        image: "/images/brand/PWD.png"
     },
     {
-        image: "/images/brand/brand-logo-7.png"
+        image: "/images/brand/RSRDC.JPG"
     },
     {
-        image: "/images/brand/brand-logo-8.jpg  "
+        image: "/images/brand/SMC.jpg"
     }
 ]
 

@@ -5,7 +5,23 @@ import { FaXTwitter } from "react-icons/fa6";
 import ServiceData from "../../data/service/ServiceMain.json";
 import { slugify } from '../../utils';
 
-const getServiceData = ServiceData;
+const getServiceData = [
+    {
+        title:'FIRE HYDRANT SYSTEM'
+    },
+    {
+        title:'FIRE SPRINKLER SYSTEM'
+    },
+    {
+        title:'FIRE FIGHTING PUMP'
+    },
+    {
+        title:'FIRE ALARM SYSTEM'
+    },
+    {
+        title:'SAFETY GOODS'
+    }
+];
 
 const FooterOne = ({ parentClass }) => {
 
@@ -49,9 +65,9 @@ const FooterOne = ({ parentClass }) => {
                                         <h6 className="widget-title">Services</h6>
                                         <div className="footer-menu-link">
                                             <ul className="list-unstyled">
-                                                {getServiceData.slice(0, 3).map((data, index) => (
+                                                {getServiceData.slice(0, 5).map((data, index) => (
                                                     <li key={index}>
-                                                        <Link to={process.env.PUBLIC_URL + `/service-details/${slugify(data.title)}`}>{data.title}</Link>
+                                                        <Link to={process.env.PUBLIC_URL + `/${slugify(data.title)}`}>{data.title}</Link>
                                                     </li>
                                                 ))}
                                             </ul>

@@ -86,7 +86,7 @@ const App = () => {
 				<Route path={process.env.PUBLIC_URL + "/fire-sprinkler-system"} element={<ProjectGridTwo />}/>
 				<Route path={process.env.PUBLIC_URL + "/fire-fighting-pump"} element={<ProjectGridThree />}/>
 				<Route path={process.env.PUBLIC_URL + "/fire-alarm-system"} element={<ProjectGridFour />}/>
-				<Route path={process.env.PUBLIC_URL + "/safety-goods"} element={<ProjectGridFive />}/>
+				<Route path={process.env.PUBLIC_URL + "/safety-goods"} element={<ProjectGridFour />}/>
 				<Route path={process.env.PUBLIC_URL + "/project-details/:slug"} element={<ProjectDetails />}/>
 
 				{/* Pages  */}
