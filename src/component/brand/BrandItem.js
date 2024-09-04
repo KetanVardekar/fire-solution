@@ -42,7 +42,7 @@ const BrandItem = () => {
                 <div className="col-lg-3 col-6" key={index}>
                     <div className="brand-grid">
                         <img src={process.env.PUBLIC_URL + data.image} alt={data.name} />
-                        <div className='mt-1'>
+                        <div>
                         <span className="brand-name">{data.place}</span>
                         </div>
                     </div>
