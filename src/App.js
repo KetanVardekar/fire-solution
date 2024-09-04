@@ -53,6 +53,11 @@ import './assets/scss/app.scss';
 import OurProducts from './component/project/Products';
 import Products from './component/project/Products';
 import About from './pages/About';
+import FireHydrantSystem from './pages/FireHydrantSystem';
+import SafetyGoods from './pages/SafetyGoods';
+import FireFightingPump from './pages/FireFightingPump';
+import FireAlarmSystem from './pages/FireAlarmSystem';
+import FireSprinklerSystem from './pages/FireSprinklerSystem';
 
 
 
@@ -82,11 +87,11 @@ const App = () => {
 				<Route path={process.env.PUBLIC_URL + "/service-details/:slug"} element={<ServiceDetails />}/>
 
 				{/* Project  */}
-				<Route path={process.env.PUBLIC_URL + "/fire-hydrant-system"} element={<ProjectGridOne />}/>
-				<Route path={process.env.PUBLIC_URL + "/fire-sprinkler-system"} element={<ProjectGridTwo />}/>
-				<Route path={process.env.PUBLIC_URL + "/fire-fighting-pump"} element={<ProjectGridThree />}/>
-				<Route path={process.env.PUBLIC_URL + "/fire-alarm-system"} element={<ProjectGridFour />}/>
-				<Route path={process.env.PUBLIC_URL + "/safety-goods"} element={<ProjectGridFour />}/>
+				<Route path={process.env.PUBLIC_URL + "/fire-hydrant-system"} element={<FireHydrantSystem />}/>
+				<Route path={process.env.PUBLIC_URL + "/fire-sprinkler-system"} element={<FireSprinklerSystem />}/>
+				<Route path={process.env.PUBLIC_URL + "/fire-fighting-pump"} element={<FireFightingPump />}/>
+				<Route path={process.env.PUBLIC_URL + "/fire-alarm-system"} element={<FireAlarmSystem />}/>
+				<Route path={process.env.PUBLIC_URL + "/safety-goods"} element={<SafetyGoods />}/>
 				<Route path={process.env.PUBLIC_URL + "/project-details/:slug"} element={<ProjectDetails />}/>
 
 				{/* Pages  */}
