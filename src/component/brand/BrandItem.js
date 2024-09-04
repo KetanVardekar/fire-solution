@@ -2,31 +2,38 @@ import React from 'react';
 
 const Data = [
     {
-        image: "/images/brand/AIIMS.jpg"
+        image: "/images/brand/AIIMS.jpg",
+        place: "RAIPUR"
     },
     {
-        image: "/images/brand/AUDA.jpg"
+        image: "/images/brand/AUDA.jpg",
+        place: "AHEMDABAD"
     },
     {
-        image: "/images/brand/gujsarkar.jpg"
+        image: "/images/brand/gujsarkar.jpg",
+        place: "GUJARAT"
     },
     {
-        image: "/images/brand/CONCOR.png"
+        image: "/images/brand/CONCOR.png",
+        place: "GUJARAT"
     },
     {
-        image: "/images/brand/PIU.jpg"
+        image: "/images/brand/PIU.jpg",
+        place: "Indore"
     },
     {
-        image: "/images/brand/PWD.png"
+        image: "/images/brand/PWD.png",
+        place: "DAMAN"
     },
     {
-        image: "/images/brand/RSRDC.jpg"
+        image: "/images/brand/RSRDC.jpg",
+        place: "RAJASTHAN"
     },
     {
-        image: "/images/brand/SMC.jpg"
+        image: "/images/brand/SMC.jpg",
+        place: "SURAT"
     }
 ]
-
 
 const BrandItem = () => {
     return (
@@ -34,7 +41,10 @@ const BrandItem = () => {
             {Data.map((data, index) => (
                 <div className="col-lg-3 col-6" key={index}>
                     <div className="brand-grid">
-                        <img src={process.env.PUBLIC_URL + data.image} alt="Brand" />
+                        <img src={process.env.PUBLIC_URL + data.image} alt={data.name} />
+                        <div className='mt-1'>
+                        <span className="brand-name">{data.place}</span>
+                        </div>
                     </div>
                 </div>
             ))}

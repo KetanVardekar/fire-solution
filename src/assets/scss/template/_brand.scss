@@ -4,19 +4,24 @@
 .brand-wrap-area {
     padding: 90px 0;
 }
+
 .brand-grid {
     padding: 10px 0;
-    img {
-        filter: grayscale(100%);
-        opacity: 0.3;
-        border-radius: 17px;
-        transition: var(--transition);
-    }
-    &:hover, &.active {
-        img {
-            opacity: 1;
-            filter: grayscale(0);
-        }
-    }
+    text-align: center;
+    
 }
 
+.brand-name {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10px;
+   
+}
+
+.brand-grid img {
+    border-radius: 17px;
+    transition: var(--transition);
+    width: 75%;
+}
