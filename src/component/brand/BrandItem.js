@@ -14,13 +14,13 @@ const Data = [
         image: "/images/brand/CONCOR.png"
     },
     {
-        image: "/images/brand/PIU.JPG"
+        image: "/images/brand/PIU.jpg"
     },
     {
         image: "/images/brand/PWD.png"
     },
     {
-        image: "/images/brand/RSRDC.JPG"
+        image: "/images/brand/RSRDC.jpg"
     },
     {
         image: "/images/brand/SMC.jpg"
