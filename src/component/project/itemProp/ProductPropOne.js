@@ -95,7 +95,7 @@ const ProductPropOne = ({ projectStyle, portfolio }) => {
 
 	const sendEmail = (e) => {
 		e.preventDefault();
-		emailjs.sendForm('service_nk3u1ln', 'template_95yscfo', form.current, '8t5Op5K-wjKiOsQRI')
+		emailjs.sendForm('service_nk3u1ln', 'template_sa3smpc', form.current, '8t5Op5K-wjKiOsQRI')
 			.then((result) => {
 				setIsModalOpen(false)
 				console.log(result.text);
