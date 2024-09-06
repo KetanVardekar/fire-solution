@@ -97,6 +97,7 @@ const ProductPropOne = ({ projectStyle, portfolio }) => {
 		e.preventDefault();
 		emailjs.sendForm('service_nk3u1ln', 'template_95yscfo', form.current, '8t5Op5K-wjKiOsQRI')
 			.then((result) => {
+				setIsModalOpen(false)
 				console.log(result.text);
 			}, (error) => {
 				console.log(error.text);
@@ -198,21 +199,54 @@ const ProductPropOne = ({ projectStyle, portfolio }) => {
 				<div style={formStyles.modalContent}>
 					<form ref={form} onSubmit={sendEmail} className="axil-contact-form">
 						<div className="form-group" style={formStyles.formGroup}>
-							<label  style={formStyles.label}>Name</label>
-							<input type="text" className="form-control" name="contact-name" placeholder='Enter Name' required style={formStyles.formControl} />
+							<label style={formStyles.label}>Name</label>
+							<input
+								type="text"
+								className="form-control"
+								name="contact-name"
+								placeholder='Enter Name'
+								required
+								style={formStyles.formControl}
+							/>
 						</div>
 						<div className="form-group" style={formStyles.formGroup}>
 							<label style={formStyles.label}>Email</label>
-							<input type="email" className="form-control" name="contact-email" placeholder='Enter Email' required style={formStyles.formControl} />
+							<input
+								type="email"
+								className="form-control"
+								name="contact-email"
+								placeholder='Enter Email'
+								required
+								style={formStyles.formControl}
+								pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+								title="Please enter a valid email address."
+							/>
 						</div>
 						<div className="form-group" style={formStyles.formGroup}>
 							<label style={formStyles.label}>Phone</label>
-							<input type="tel" className="form-control" name="contact-phone" placeholder='Enter Phone' required style={formStyles.formControl} />
+							<input
+								type="tel"
+								className="form-control"
+								name="contact-phone"
+								placeholder='Enter Phone'
+								required
+								style={formStyles.formControl}
+								pattern="^(\+91[\-\s]?)?[0]?(91)?[789]\d{9}$"
+								title="Please enter a valid phone number (e.g., 7966347845)."
+							/>
 						</div>
 						<div className="form-group" style={formStyles.formGroup}>
 							<label style={formStyles.label}>Message</label>
-							<textarea className="form-control" name="contact-message" rows="3" placeholder='Enter Message' style={formStyles.textarea} />
+							<textarea
+								className="form-control"
+								name="contact-message"
+								rows="3"
+								placeholder='Enter Message'
+								style={formStyles.textarea}
+							/>
 						</div>
+						<input type="hidden" name="product-title" value={portfolio.title} />
+						<input type="hidden" name="product-category" value={portfolio.category.join(', ')} />
 						<div className="form-group" style={formStyles.formGroup}>
 							<button type="submit" style={formStyles.submitButton}>Submit</button>
 						</div>
@@ -222,6 +256,7 @@ const ProductPropOne = ({ projectStyle, portfolio }) => {
 					</form>
 				</div>
 			</Modal>
+
 		</>
 	);
 };

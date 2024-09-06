@@ -41,11 +41,13 @@ const FormTwo = () => {
             </div>
             <div className="form-group">
                 <label>Email</label>
-                <input type="email" className="form-control" name="contact-email" required />
+                <input type="email" className="form-control" name="contact-email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+								title="Please enter a valid email address." />
             </div>
             <div className="form-group">
                 <label>Phone</label>
-                <input type="tel" className="form-control" name="contact-phone" required />
+                <input type="tel" className="form-control" name="contact-phone" required pattern="^(\+91[\-\s]?)?[0]?(91)?[789]\d{9}$"
+								title="Please enter a valid phone number (e.g., 7966347845)." />
             </div>
             <div className="form-group mb--40">
                 <label>How can we help you?</label>
