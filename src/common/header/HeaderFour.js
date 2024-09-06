@@ -29,14 +29,15 @@ const HeaderFour = () => {
 
     return (
         <>
+        
             <header className="header axil-header header-style-4">
                 <div className={`axil-mainmenu ${sticky ? "axil-sticky" : ""}`}>
                     <div className="container">
                         <div className="header-navbar">
                             <div className="header-logo">
-                                <Logo limage="/images/file.png"
-                                    dimage="/images/file.png"
-                                    simage="/images/file.png"
+                                <Logo limage="/images/logo-01.png"
+                                dimage="/images/logo-01.png"
+                                simage="/images/logo-01.png"
                                 />
                             </div>
                             <div className="header-main-nav">

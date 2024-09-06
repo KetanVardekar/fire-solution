@@ -49,9 +49,9 @@ const HeaderOne = () => {
                     <div className="container">
                         <div className="header-navbar">
                             <div className="header-logo">
-                                <Logo limage="/images/fireIndia-logo.png"
-                                    dimage="/images/fireIndia-logo.png"
-                                    simage="/images/fireIndia-logo.png"
+                                <Logo limage="/images/logo-01.png"
+                                dimage="/images/logo-01.png"
+                                simage="/images/logo-01.png"
                                 />
                             </div>
                             <div className="header-main-nav">
