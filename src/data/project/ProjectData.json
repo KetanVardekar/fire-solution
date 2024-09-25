@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "/images/project/commercial-building-hydrants-systems.jpg",
+        "image": "/images/project/FHS-3.jpeg",
         "title": "Commercial Building Hydrant Systems",
         "category": [
             "Fire Safety",
@@ -16,7 +16,7 @@
     },
     {
         "id": 2,
-        "image": "/images/project/residential-fire-hydrant-system.jpg",
+        "image": "/images/project/fire-hydrant-system-4.jpg",
         "title": "Residential Fire Hydrant Systems",
         "category": [
             "Fire Safety",
@@ -46,7 +46,7 @@
     },
     {
         "id": 4,
-        "image": "/images/project/pre-action-sprinkler-system.jpg",
+        "image": "/images/project/FSS-3.jpeg",
         "title": "Pre-Action Sprinkler Systems",
         "category": [
             "Fire Safety",
@@ -61,7 +61,7 @@
     },
     {
         "id": 5,
-        "image": "/images/project/fire-fighting-equipment.jpg",
+        "image": "/images/project/FFP-3.jpg",
         "title": "Fire Fighting Equipment Supply",
         "category": [
             "Fire Safety",
@@ -76,7 +76,7 @@
     },
     {
         "id": 6,
-        "image": "/images/project/fire-fighting-consultation.jpg",
+        "image": "/images/project/FFP-2.jpeg",
         "title": "Fire Fighting Training and Consultation",
         "category": [
             "Fire Safety",
@@ -91,7 +91,7 @@
     },
     {
         "id": 7,
-        "image": "/images/project/Fire-alarm-system-1.jpg",
+        "image": "/images/project/FAS-3.jpg",
         "title": "Conventional Fire Alarm Systems",
         "category": [
             "Fire Safety",
@@ -106,7 +106,7 @@
     },
     {
         "id": 8,
-        "image": "/images/project/Fire-alarm-system-2.jpg",
+        "image": "/images/project/FAS-2.jpg",
         "title": "Addressable Fire Alarm Systems",
         "category": [
             "Fire Safety",
