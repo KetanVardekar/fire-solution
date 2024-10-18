@@ -237,8 +237,8 @@
     },
     {
         "id": 17,
-        "image": "/images/project/project-10.png",
-        "title": "SACHIN PATEL",
+        "image": "/images/project/SunilChoudhary.jpeg",
+        "title": "Sunil Choudhary",
         "category": [
             "BOARD OF DIRECTOR"
         ],
@@ -250,10 +250,10 @@
     },
     {
         "id": 18,
-        "image": "/images/project/project-11.png",
-        "title": "MANISH YADAV",
+        "image": "/images/project/KamalaChoudhary.jpeg",
+        "title": "Kamala Choudhary",
         "category": [
-            "BOARD OF DIRECTOR"
+            "DIRECTOR"
         ],
         "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
         "body": [
@@ -261,6 +261,7 @@
             "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
         ]
     },
+    
     {
         "id": 19,
         "image": "/images/project/project-11.png",
