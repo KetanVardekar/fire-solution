@@ -39,13 +39,13 @@ const HeaderThree = () => {
                                         </ul>
                                     </li>
 
-                                    <li className="sidemenu-btn">
+                                    {/* <li className="sidemenu-btn">
                                         <button className="btn-wrap" onClick={OffcanvasHandleShow}>
                                             <span></span>
                                             <span></span>
                                             <span></span>
                                         </button>
-                                    </li>
+                                    </li> */}
                                     <li className="my_switcher d-block d-lg-none">
                                         <SwitcherHeader />
                                     </li>

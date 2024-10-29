@@ -27,23 +27,24 @@ const About = () => {
                         <div className="row justify-content-center">
                             <div className="col-lg-10">
                                 <div className="about-us-content">
-                                    <p>Welcome to SUPER INDIA BUILDPRO PVT. LTD., your trusted partner in comprehensive fire safety solutions. At SUPER INDIA BUILDPRO, we understand that safety is paramount, and we are committed to safeguarding lives and property with unmatched dedication and expertise. Our team of seasoned professionals is driven by a passion for excellence, ensuring that every fire safety solution we provide is of the highest standard. We offer a broad range of services, meticulously designed to meet the diverse needs of our clients across various industries. Whether you are looking to secure a commercial building, an industrial facility, or a residential complex, SUPER INDIA BUILDPRO PVT. LTD. is here to provide innovative, reliable, and effective fire safety solutions that you can trust.</p>
+                                    <p>Super India Buildpro Private Limited is driven by a vision to create a world where the threat of fire is met with unparalleled expertise and innovation. With a steadfast commitment to fire prevention and response, we lead the industry in setting new standards, safeguarding lives, and protecting properties through state-of-the-art firefighting solutions. Our core values—integrity, professionalism, and a profound sense of responsibility—guide every action we take as we work alongside our clients, partners, and the communities we serve to create a safer, more resilient future.</p>
 
 
                                     <h4>Our Mission</h4>
-                                    <p>At SUPER INDIA BUILDPRO PVT. LTD., our mission is to provide reliable, high-quality fire safety solutions that ensure the safety and security of our clients’ assets. We strive to be a leader in the industry through innovation, commitment, and excellence in service.</p>
+                                    <p>Our mission is to deliver exceptional fire protection services by leveraging advanced technology, ongoing training, and a highly skilled workforce. We are dedicated to minimizing the devastating impact of fires, setting benchmarks in safety, efficiency, and effectiveness that allow our clients to operate with peace of mind, knowing they are prepared for the unexpected.</p>
 
                                     <h4>Our Vision</h4>
-                                    <p>Our vision is to create a safer world by setting new standards in fire safety. We envision a future where our innovative solutions not only prevent fire-related incidents but also save lives, protect properties, and contribute to a more secure environment.</p>
+                                    <p>We envision a future where we are the trusted partner for businesses, individuals, and governments, creating safer communities and workplaces by fostering a culture of preparedness and resilience. Aspiring to prevent fire emergencies before they happen, we aim to guarantee the safety and well-being of all, securing a future where fire hazards are managed and mitigated effectively.</p>
 
                                     <h4>What We Offer</h4>
-                                    <p>SUPER INDIA BUILDPRO PVT. LTD. offers a wide range of fire safety services, including design and consultancy, supply, installation, testing, and commissioning (SITC) of fire protection and detection systems. We also specialize in operation and maintenance (O&M) and annual maintenance contracts (AMC) to ensure the longevity and efficiency of your fire safety systems.</p>
+                                    <p>We offer a full range of fire protection solutions, from comprehensive design, installation, and maintenance services to personalized training programs that ensure clients are prepared to handle emergencies with confidence. By embracing the latest advancements in firefighting and detection technologies, we provide efficient and effective solutions, delivered by a team of experts committed to excellence in every facet of fire protection..</p>
 
-                                    <h4>Our Commitment</h4>
-                                    <p>We are committed to delivering exceptional service and support to our clients. Our team of experts is equipped with the knowledge and experience to handle all aspects of fire safety, from initial design to ongoing maintenance.</p>
+                                   
 
                                     <h4>Why Choose Us?</h4>
-                                    <p>Choosing SUPER INDIA BUILDPRO PVT. LTD. means choosing a partner who values your safety above all else. We use the latest technologies and best practices to provide solutions that are not only effective but also compliant with all relevant safety standards.</p>
+                                    <p>With years of experience and industry-leading expertise, we bring an unmatched dedication to our clients’ safety. Our customer-centric approach places the unique needs of each client at the forefront, delivering tailored service and support built on trust and reliability. Driven by integrity and professionalism, we consistently meet the highest safety standards, building enduring relationships and a safer tomorrow for all.
+
+.</p>
                                 </div>
                             </div>
                         </div>
