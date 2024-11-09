@@ -17,61 +17,74 @@ const Contact = () => {
             <ColorSwitcher />
             <main className="main-wrapper">
                 <HeaderOne />
-                <BreadCrumbOne 
-                title="Contact"
-                page="Contact"
+                <BreadCrumbOne
+                    title="Contact"
+                    page="Contact"
                 />
 
-            <div className="section section-padding">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-xl-5 col-lg-6">
-                            <div className="contact-form-box shadow-box mb--30">
-                                <h3 className="title">Get in Touch for Expert Fire Safety Solutions</h3>
-                                <FormTwo />
+                <div className="section section-padding">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-xl-5 col-lg-6">
+                                <div className="contact-form-box shadow-box mb--30">
+                                    <h4 className="title" style={{ marginBottom: '25px',fontWeight:'bold' }}>Get in Touch With Us</h4>
+                                    <FormTwo />
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-xl-5 col-lg-6 offset-xl-1">
-                            <div className="contact-info mb--100 mb_md--30 mt_md--0 mt--150">
-                                <h4 className="title">Phone</h4>
-                                <p>As a fire safety solutions company, we're available 24/7 to assist you.</p>
-                                <h4 className="phone-number"><a href="tel:1234567890">456 789</a></h4>
-                            </div>
-                            <div className="contact-info mb--30">
-                                <h4 className="title">Email</h4>
-                                <p>Our support team will get back to in 48-h during standard business hours.</p>
-                                <h4 className="phone-number"><a href="mailto:info@example.com">safety@gmail.com</a></h4>
+                            <div className="col-xl-5 col-lg-6 offset-xl-1">
+                                <div className="contact-info mb--30 mb_md--30 mt_md--0">
+                                    <h4 className="title" style={{ marginBottom: '12px' }}>Phone</h4>
+                                    <p style={{ marginBottom: '15px' }}>As a fire safety solutions company, we're available 24/7 to assist you.</p>
+                                    <h4 className="phone-number"><a href="tel:1234567890">82381 98504</a></h4>
+                                </div>
+                                <div className="contact-info">
+                                    <h4 className="title" style={{ marginBottom: '12px' }}>Email</h4>
+                                    <p style={{ marginBottom: '15px' }}>Our support team will get back to in 48-h during standard business hours.</p>
+                                    <h4
+                                        className="phone-number"
+                                        style={{
+                                            wordWrap: 'break-word',
+                                            whiteSpace: 'normal',
+                                            display: 'inline-block',
+                                            wordBreak: 'break-all'
+                                        }}
+                                    >
+                                        <a href="mailto:superindiafire@gmail.com" style={{ color: 'inherit', textDecoration: 'none' }}>
+                                            superindiafire@gmail.com
+                                        </a>
+                                    </h4>
+
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <ul className="list-unstyled shape-group-12">
+                        <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/bubble-2.png"} alt="Bubble" /></li>
+                        <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/bubble-1.png"} alt="Bubble" /></li>
+                        <li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/circle-3.png"} alt="Circle" /></li>
+                    </ul>
                 </div>
-                <ul className="list-unstyled shape-group-12">
-                    <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/bubble-2.png"} alt="Bubble" /></li>
-                    <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/bubble-1.png"} alt="Bubble" /></li>
-                    <li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/circle-3.png"} alt="Circle" /></li>
-                </ul>
-            </div>
 
-            <div className="section section-padding bg-color-dark overflow-hidden">
-                <div className="container">
-                    <SectionTitle 
-                        subtitle="Find Us"
-                        title="Our office"
-                        description=""
-                        textAlignment="heading-light-left"
-                        textColor=""
-                    />
-                    <div className="row">
-                        <ContactLocation />
+                <div className="section section-padding bg-color-dark overflow-hidden">
+                    <div className="container">
+                        <SectionTitle
+                            subtitle="Find Us"
+                            title="Our office"
+                            description=""
+                            textAlignment="heading-light-left"
+                            textColor=""
+                        />
+                        <div className="row">
+                            <ContactLocation />
+                        </div>
                     </div>
+                    <ul className="shape-group-11 list-unstyled">
+                        <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/line-6.png"} alt="line" /></li>
+                        <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/circle-3.png"} alt="line" /></li>
+                    </ul>
                 </div>
-                <ul className="shape-group-11 list-unstyled">
-                    <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/line-6.png"} alt="line" /></li>
-                    <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/circle-3.png"} alt="line" /></li>
-                </ul>
-            </div>
 
-            <FooterOne parentClass="pt--150 pt_lg--100 pt_md--80 pt_sm--60" />
+                <FooterOne parentClass="pt--150 pt_lg--100 pt_md--80 pt_sm--60" />
             </main>
         </>
     )

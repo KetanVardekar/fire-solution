@@ -37,21 +37,21 @@ const FormTwo = () => {
         <form ref={form} onSubmit={sendEmail} className="axil-contact-form">
             <div className="form-group">
                 <label>Name</label>
-                <input type="text" className="form-control" name="contact-name" required />
+                <input type="text" className="form-control" name="contact-name" required style={{height:'40px'}} />
             </div>
             <div className="form-group">
                 <label>Email</label>
-                <input type="email" className="form-control" name="contact-email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-								title="Please enter a valid email address." />
+                <input type="email" className="form-control contact" name="contact-email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+								title="Please enter a valid email address." style={{height:'40px'}} />
             </div>
             <div className="form-group">
                 <label>Phone</label>
                 <input type="tel" className="form-control" name="contact-phone" required pattern="^(\+91[\-\s]?)?[0]?(91)?[789]\d{9}$"
-								title="Please enter a valid phone number (e.g., 7966347845)." />
+								title="Please enter a valid phone number (e.g., 7966347845)." style={{height:'40px'}} />
             </div>
             <div className="form-group mb--40">
                 <label>How can we help you?</label>
-                <textarea className="form-control" name="contact-message" rows="4"></textarea>
+                <textarea className="form-control" name="contact-message" rows="2"></textarea>
 
             </div>
             <div className="form-group">
