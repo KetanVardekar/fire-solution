@@ -10,7 +10,7 @@ const ContactLocation = () => {
                 <div className="col-lg-6 col-sm-6" key={index}>
                     <div className="office-location">
                         <div className="thumbnail">
-                            <img src={process.env.PUBLIC_URL + data.thumb} alt="Office" />
+                            <img src={process.env.PUBLIC_URL + data.thumb} alt="Office" style={{width:'450px', height:'300px'}} />
                         </div>
                         <div className="content">
                             <h4 className="title">{data.title}</h4>
