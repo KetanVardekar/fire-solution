@@ -22,7 +22,7 @@ const Data = [
         place: "Indore"
     },
     {
-        image: "/images/brand/PWD.png",
+        image: "/images/brand/PWD.jpg",
         place: "DAMAN"
     },
     {
