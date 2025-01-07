@@ -6,7 +6,7 @@ import { slugify } from '../../../utils';
 const PropOne = ({ projectStyle, portfolio }) => {
 
 	return (
-		<>
+		
 			<div className={`project-grid ${projectStyle}`}>
 				<div className="thumbnail">
 					{/* <Link to={process.env.PUBLIC_URL + `/project-details/${slugify(portfolio.title)}`}> */}
@@ -15,7 +15,8 @@ const PropOne = ({ projectStyle, portfolio }) => {
 				</div>
 				<div className="content">
 					<h4 className="title">
-						<Link to={process.env.PUBLIC_URL + `/project-details/${slugify(portfolio.title)}`}>{portfolio.title}</Link>
+						{/* <Link to={process.env.PUBLIC_URL + `/project-details/${slugify(portfolio.title)}`}>{portfolio.title}</Link> */}
+						{portfolio.title}
 					</h4>
 					<span className="subtitle">
 						{portfolio.category.map((cat, i) => (
@@ -24,7 +25,7 @@ const PropOne = ({ projectStyle, portfolio }) => {
 					</span>
 				</div>
 			</div>
-		</>
+		
 	)
 }
 
