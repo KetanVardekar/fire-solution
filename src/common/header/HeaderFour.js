@@ -43,7 +43,7 @@ const HeaderFour = () => {
                             <div className="header-main-nav">
                                 <Nav />
                             </div>
-                            {/* <div className="header-action">
+                            <div className="header-action">
                                 <ul className="list-unstyled">
                                     
                                     <li className="mobile-menu-btn sidemenu-btn d-lg-none d-block">
@@ -57,7 +57,7 @@ const HeaderFour = () => {
                                         <SwitcherHeader />
                                     </li>
                                 </ul>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>
