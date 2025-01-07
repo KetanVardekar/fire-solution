@@ -59,7 +59,7 @@ const OurProducts = ({ parentClass, colSize, itemShow, columnGap }) => {
 	return (
 		<>
 			<div className={`section our-work-padding-2 ${parentClass ? parentClass : ""}`}>
-				<div className="container mt-5">
+				<div className="container">
 					<SectionTitle
 						subtitle="Our Products"
 						title="Some of our Best Products."
