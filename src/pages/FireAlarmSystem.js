@@ -18,8 +18,10 @@ const FireAlarmSystem = () => {
             <HeaderOne />
             <BcrumbBannerOne 
                 title="Fire Alarm System"
-                paragraph ="Implementing cutting-edge fire alarm systems <br> designed for swift detection and alerting.
-                "
+                paragraph ="Implementing cutting-edge fire alarm systems designed for <br> swift detection and alerting. 
+                Our advanced solutions ensure <br>  early warning in case of fire hazards, allowing for rapid response <br> 
+                and evacuation. Suitable for residential, commercial, and industrial spaces, <br>  our systems integrate 
+                seamlessly with fire safety protocols, providing <br>  reliable protection and compliance with safety standards."
                 styleClass=""
                 mainThumb="/images/banner/fire-alarm.jpg"
             />

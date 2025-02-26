@@ -18,7 +18,10 @@ const FireFightingPump = () => {
                 <HeaderOne />
                 <BcrumbBannerOne
                     title="Fire Fighting Pump"
-                    paragraph="Offering expert pipeline fabrication and <br> erection services.."
+                    paragraph="Delivering high-performance Fire Fighting Pumps <br> designed to ensure a reliable water supply 
+                    for fire suppression. <br>  Our pumps are built for efficiency and durability, providing <br>  optimal pressure 
+                    and flow to combat fires effectively. <br>  Suitable for industrial, commercial, and residential applications, <br> 
+                    our solutions comply with stringent safety standards."
                     styleClass=""
                     mainThumb="/images/banner/pipeline-erection.jpg"
                 />

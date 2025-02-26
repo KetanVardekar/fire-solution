@@ -58,6 +58,7 @@ import SafetyGoods from './pages/SafetyGoods';
 import FireFightingPump from './pages/FireFightingPump';
 import FireAlarmSystem from './pages/FireAlarmSystem';
 import FireSprinklerSystem from './pages/FireSprinklerSystem';
+import FireSafetyTraining from './pages/FireSafetyTraining';
 
 
 
@@ -92,6 +93,7 @@ const App = () => {
 				<Route path={process.env.PUBLIC_URL + "/fire-fighting-pump"} element={<FireFightingPump />}/>
 				<Route path={process.env.PUBLIC_URL + "/fire-alarm-system"} element={<FireAlarmSystem />}/>
 				<Route path={process.env.PUBLIC_URL + "/safety-goods"} element={<SafetyGoods />}/>
+				<Route path={process.env.PUBLIC_URL + "/fire-safety-training"} element={<FireSafetyTraining />}/>
 				<Route path={process.env.PUBLIC_URL + "/project-details/:slug"} element={<ProjectDetails />}/>
 
 				{/* Pages  */}

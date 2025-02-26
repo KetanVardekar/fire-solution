@@ -232,7 +232,7 @@
     },
     {
         "id": 22,
-        "image": "/images/products/fire-extinguisher-2kg.jpg",
+        "image": "/images/products/fire-hose-reel.jpg",
         "title": "Fire Hose Reel",
         "category": ["Wall Mounted / Swing Type"],
         "excerpt": "Addressable Fire Alarm Systems provide detailed location information and advanced detection capabilities for larger and more complex installations.",
@@ -375,17 +375,6 @@
     },
     {
         "id": 35,
-        "image": "/images/products/cctv.jpg",
-        "title": "CCTV Camera",
-        "category": [""],
-        "excerpt": "Fire Fighting Equipment Supply provides essential tools and gear for effective fire response, ensuring safety and preparedness.",
-        "body": [
-            "Our Fire Fighting Equipment Supply includes a wide range of tools such as hoses, nozzles, and extinguishers, designed to support efficient firefighting efforts.",
-            "We offer high-quality equipment tailored to various fire scenarios, enhancing safety and operational readiness."
-        ]
-    },
-    {
-        "id": 36,
         "image": "/images/products/safety-helmet.jpg",
         "title": "Safety Helmet / Shoes",
         "category": [""],
@@ -394,20 +383,8 @@
             "Our Fire Fighting Training and Consultation services are designed to equip individuals and teams with the skills needed for efficient fire management.",
             "We offer comprehensive training programs and expert consultation to ensure that your fire safety practices are up-to-date and effective."
         ]
-    },
-    {
-        "id": 37,
-        "image": "/images/products/solar-signal-light.jpg",
-        "title": "Solar Signal Light",
-        "category": [""],
-        "excerpt": "Conventional Fire Alarm Systems offer straightforward detection and notification, suitable for smaller or less complex environments.",
-        "body": [
-            "Conventional Fire Alarm Systems are designed for simplicity and reliability, providing basic detection and alert functions for smaller buildings.",
-            "These systems activate alarms and notifications when fire or smoke is detected, ensuring prompt response to fire emergencies."
-        ]
-    },
-    {
-        "id": 38,
+    },{
+        "id": 36,
         "image": "/images/products/convex-mirror.jpg",
         "title": "Convex Mirror",
         "category": [""],
@@ -415,17 +392,6 @@
         "body": [
             "Addressable Fire Alarm Systems offer precise location data for fire detection, enabling quicker and more accurate responses in larger buildings.",
             "These systems enhance safety by pinpointing the exact location of the alarm activation, streamlining emergency response efforts."
-        ]
-    },
-    {
-        "id": 39,
-        "image": "/images/products/solar-light.jpg",
-        "title": "Solar Light",
-        "category": [""],
-        "excerpt": "Personal Protective Equipment (PPE) includes essential gear for safety during fire emergencies, designed to protect individuals from hazards.",
-        "body": [
-            "Our Personal Protective Equipment (PPE) offerings include fire-resistant clothing, helmets, gloves, and other gear to ensure safety during fire response.",
-            "These items are designed to protect firefighters and emergency responders from the hazards of fire and high temperatures."
         ]
     }
 ]

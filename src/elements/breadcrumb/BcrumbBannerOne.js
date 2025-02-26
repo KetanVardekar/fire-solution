@@ -7,7 +7,7 @@ const BcrumbBannerOne = ({ title, paragraph, styleClass, mainThumb }) => {
             <div className="container">
                 <div className="section-heading heading-left">
                     <h1 className="title h2" dangerouslySetInnerHTML={{ __html: title }}></h1>
-                    <p dangerouslySetInnerHTML={{ __html: paragraph }}></p>
+                    <span style={{color:"#0A1931"}} dangerouslySetInnerHTML={{ __html: paragraph }}></span>
                 </div>
                 {/* <div className={`banner-thumbnail ${styleClass}`}>
                     <Tilty perspective={2000} reset={false}>

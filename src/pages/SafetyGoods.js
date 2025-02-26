@@ -18,7 +18,9 @@ const SafetyGoods = () => {
             <HeaderOne />
             <BcrumbBannerOne 
                 title="Safety Goods"
-                paragraph="Tailored Safety Goods for Every Challenge... Because your safety is our priority."
+                paragraph="Providing high-quality safety goods to ensure <br> protection in various industrial and commercial 
+                environments. <br>  From personal protective equipment (PPE) to fire-resistant gear, <br>  our products meet industry 
+                standards and help create a safer workspace. <br>  Because your safety is our top priority."
                 styleClass=""
                 mainThumb="/images/banner/fire-hydrant-banner.jpg"
             />

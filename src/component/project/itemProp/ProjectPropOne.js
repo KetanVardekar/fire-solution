@@ -15,7 +15,7 @@ const PropOne = ({ projectStyle, portfolio }) => {
 				</div>
 				<div className="content">
 					<h4 className="title">
-						{/* <Link to={process.env.PUBLIC_URL + `/project-details/${slugify(portfolio.title)}`}>{portfolio.title}</Link> */}
+					{/* <Link to={process.env.PUBLIC_URL + `/project-details/${slugify(portfolio.title)}`}>{portfolio.title}</Link> */}
 						{portfolio.title}
 					</h4>
 					<span className="subtitle">
@@ -25,7 +25,7 @@ const PropOne = ({ projectStyle, portfolio }) => {
 					</span>
 				</div>
 			</div>
-		
+	
 	)
 }
 

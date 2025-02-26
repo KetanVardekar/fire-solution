@@ -7,23 +7,21 @@ import SEO from '../common/SEO';
 import CtaLayoutOne from '../component/cta/CtaLayoutOne';
 import ProjectOne from '../component/project/ProjectOne';
 
-
-const FireSprinklerSystem = () => {
-
+const FireSafetyTraining = () => {
     return (
         <>
-        <SEO title="Fire Sprinkler System" />
+        <SEO title="Fire Safety Training" />
         <ColorSwitcher />
         <main className="main-wrapper">
             <HeaderOne />
             <BcrumbBannerOne 
-                title="Fire Sprinkler <br> System"
-                paragraph ="Delivering advanced fire sprinkler systems <br> designed for rapid and effective fire suppression. <br>
-                Our high-quality sprinkler solutions are engineered <br> to detect and control fires automatically, 
-                minimizing damage and <br> protecting lives. Suitable for residential, commercial, and industrial settings, <br>
-                our systems ensure safety and compliance with industry standards."
+                title="Fire Safety Training"
+                paragraph="Empowering individuals and organizations with <br> essential fire safety knowledge and training. <br>  
+                Our expert-led sessions cover fire prevention, emergency response, <br> and proper use of firefighting equipment. 
+                Designed for workplaces, <br>  residential communities, and industries, our training ensures preparedness, <br> 
+                compliance with safety regulations, and the ability to respond effectively in emergencies."
                 styleClass=""
-                mainThumb="/images/banner/fire-sprinkler-system.jpg"
+                mainThumb="/images/banner/fire-safety-training.jpg"
             />
             <ProjectOne />
             <CtaLayoutOne />
@@ -33,4 +31,4 @@ const FireSprinklerSystem = () => {
     )
 }
 
-export default FireSprinklerSystem;
+export default FireSafetyTraining;
