@@ -34,7 +34,7 @@ const Nav = () => {
                 </li>
 
                 <li className="menu-item-has-children">
-                    <a href={process.env.PUBLIC_URL + "/images/others/Catalogue.pdf"} target="_blank" rel="noopener noreferrer" style={{color:'#FF4500'}}>
+                    <a href={process.env.PUBLIC_URL + "/images/others/Fire-Brochure.pdf"} target="_blank" rel="noopener noreferrer" style={{color:'#FF4500'}}>
                         BROCHURES
                     </a>
                 </li>
