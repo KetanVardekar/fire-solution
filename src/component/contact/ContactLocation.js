@@ -9,9 +9,9 @@ const ContactLocation = () => {
             {allData.map((data, index) => (
                 <div className="col-lg-6 col-sm-6" key={index}>
                     <div className="office-location">
-                        <div className="thumbnail">
+                        {/* <div className="thumbnail">
                             <img src={process.env.PUBLIC_URL + data.thumb} alt="Office" style={{width:'450px', height:'300px'}} />
-                        </div>
+                        </div> */}
                         <div className="content">
                             <h4 className="title">{data.title}</h4>
                             <p>{data.address}</p>

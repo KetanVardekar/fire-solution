@@ -1,13 +1,12 @@
 [
 
     {
-        "thumb": "/images/others/location-01.jpg",
-        "title": "DELHI",
-        "address": "435 , near Nehru Park"
-    },
+        "title": "SURAT",
+        "address": "U-16, Western View, Hazira - Adajan Rd, Opp. Bhulka Bhavan School, Saint Park Society, Adajan Gam, Adajan, Surat, Gujarat 395009"
+    }
+    ,
     {
-        "thumb": "/images/others/location-02.jpg",
-        "title": "CHANDIGARH",
-        "address": "A-1 , Near Ashish Mall"
+        "title": "SURAT",
+        "address": "Bombay Coloney Near Sbi Bank Bhatha, Pal Hazira Road, Pal Bhatha, Surat - 394510"
     }
 ]
