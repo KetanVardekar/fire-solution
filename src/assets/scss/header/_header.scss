@@ -340,9 +340,7 @@
                     }
                     &:hover {
                         color: var(--color-primary);
-                        &::after {
-                            width: 100%;
-                        }
+                        text-decoration: underline;
                     }
                     &.active {
                         color: var(--color-primary);
