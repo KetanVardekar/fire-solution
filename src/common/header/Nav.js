@@ -39,7 +39,7 @@ const Nav = () => {
                     </a>
                 </li>
                 <li className="menu-item-has-children">
-                    <Link to="#" style={{ color: '#FF4500' }}>Licenses & Certifications <FaAngleDown /></Link>
+                    <Link to="#" style={{ color: '#FF4500' }}>LICENSES & CERTIFICATIONS<FaAngleDown /></Link>
                     <ul className="axil-submenu">
                         <li><a href="/images/others/ISO-Certificate.pdf" target="_blank" rel="noopener noreferrer">ISO Certificate</a></li>
                         <li><a href="/images/others/SMC-Certificate-Form-E.pdf" target="_blank" rel="noopener noreferrer">SMC Certificate Form E</a></li>
