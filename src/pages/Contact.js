@@ -35,7 +35,9 @@ const Contact = () => {
                                 <div className="contact-info mb--30 mb_md--30 mt_md--0">
                                     <h4 className="title" style={{ marginBottom: '12px' }}>Phone</h4>
                                     <p style={{ marginBottom: '15px' }}>As a fire safety solutions company, we're available 24/7 to assist you.</p>
-                                    <h4 className="phone-number"><a href="tel:1234567890">82381 98504</a></h4>
+                                    <h4 className="phone-number">
+        <a href="tel:9328914774">93289 14774</a> | <a href="tel:9825468504">98254 68504</a>
+    </h4>
                                 </div>
                                 <div className="contact-info">
                                     <h4 className="title" style={{ marginBottom: '12px' }}>Email</h4>
@@ -49,8 +51,8 @@ const Contact = () => {
                                             wordBreak: 'break-all'
                                         }}
                                     >
-                                        <a href="mailto:superindiafire@gmail.com" style={{ color: 'inherit', textDecoration: 'none' }}>
-                                            superindiafire@gmail.com
+                                        <a href="mailto:superindiabuild@gmail.com" style={{ color: 'inherit', textDecoration: 'none' }}>
+                                        superindiabuild@gmail.com
                                         </a>
                                     </h4>
 
