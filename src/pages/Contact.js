@@ -36,7 +36,7 @@ const Contact = () => {
                                     <h4 className="title" style={{ marginBottom: '12px' }}>Phone</h4>
                                     <p style={{ marginBottom: '15px' }}>As a fire safety solutions company, we're available 24/7 to assist you.</p>
                                     <h4 className="phone-number">
-                                        <a href="tel:9328914774">93289 14774</a> | <a href="tel:9825468504">98254 68504</a>
+                                        <a href="tel:9328914774">93289 14774</a> / <a href="tel:9825468504">98254 68504</a>
                                     </h4>
                                 </div>
                                 <div className="contact-info">
