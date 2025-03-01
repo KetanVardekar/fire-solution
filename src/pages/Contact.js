@@ -27,7 +27,7 @@ const Contact = () => {
                         <div className="row">
                             <div className="col-xl-5 col-lg-6">
                                 <div className="contact-form-box shadow-box mb--30">
-                                    <h4 className="title" style={{ marginBottom: '25px',fontWeight:'bold' }}>Get in Touch With Us</h4>
+                                    <h4 className="title" style={{ marginBottom: '25px', fontWeight: 'bold' }}>Get in Touch With Us</h4>
                                     <FormTwo />
                                 </div>
                             </div>
@@ -36,8 +36,8 @@ const Contact = () => {
                                     <h4 className="title" style={{ marginBottom: '12px' }}>Phone</h4>
                                     <p style={{ marginBottom: '15px' }}>As a fire safety solutions company, we're available 24/7 to assist you.</p>
                                     <h4 className="phone-number">
-        <a href="tel:9328914774">93289 14774</a> | <a href="tel:9825468504">98254 68504</a>
-    </h4>
+                                        <a href="tel:9328914774">93289 14774</a> | <a href="tel:9825468504">98254 68504</a>
+                                    </h4>
                                 </div>
                                 <div className="contact-info">
                                     <h4 className="title" style={{ marginBottom: '12px' }}>Email</h4>
@@ -52,7 +52,7 @@ const Contact = () => {
                                         }}
                                     >
                                         <a href="mailto:superindiabuild@gmail.com" style={{ color: 'inherit', textDecoration: 'none' }}>
-                                        superindiabuild@gmail.com
+                                            superindiabuild@gmail.com
                                         </a>
                                     </h4>
 

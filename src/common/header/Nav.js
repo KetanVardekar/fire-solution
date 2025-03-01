@@ -8,15 +8,15 @@ const Nav = () => {
         <nav className="mainmenu-nav">
             <ul className="mainmenu">
                 <li className="menu-item-has-children">
-                    <Link to={process.env.PUBLIC_URL + "/corporate-agency"} style={{color:'#FF4500'}}>HOME </Link>
+                    <Link to={process.env.PUBLIC_URL + "/corporate-agency"} style={{ color: '#FF4500' }}>HOME </Link>
 
                 </li>
                 <li className="menu-item-has-children">
-                    <Link to={process.env.PUBLIC_URL + "/about-us"} style={{color:'#FF4500'}}>ABOUT US</Link>
+                    <Link to={process.env.PUBLIC_URL + "/about-us"} style={{ color: '#FF4500' }}>ABOUT US</Link>
 
                 </li>
                 <li className="menu-item-has-children">
-                    <Link to="#" style={{color:'#FF4500'}}>SERVICES <FaAngleDown /></Link>
+                    <Link to="#" style={{ color: '#FF4500' }}>SERVICES <FaAngleDown /></Link>
                     <ul className="axil-submenu" >
                         <li ><Link to={process.env.PUBLIC_URL + "/fire-hydrant-system"}>FIRE HYDRANT SYSTEM</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/fire-sprinkler-system"}>FIRE SPRINKLER SYSTEM</Link></li>
@@ -29,19 +29,29 @@ const Nav = () => {
                 </li>
 
                 <li className="menu-item-has-children">
-                    <Link to={process.env.PUBLIC_URL + "/products"} style={{color:'#FF4500'}}>PRODUCTS</Link>
+                    <Link to={process.env.PUBLIC_URL + "/products"} style={{ color: '#FF4500' }}>PRODUCTS</Link>
 
                 </li>
 
                 <li className="menu-item-has-children">
-                    <a href={process.env.PUBLIC_URL + "/images/others/Fire-Brochure.pdf"} target="_blank" rel="noopener noreferrer" style={{color:'#FF4500'}}>
+                    <a href={process.env.PUBLIC_URL + "/images/others/Fire-Brochure.pdf"} target="_blank" rel="noopener noreferrer" style={{ color: '#FF4500' }}>
                         BROCHURES
                     </a>
                 </li>
+                <li className="menu-item-has-children">
+                    <Link to="#" style={{ color: '#FF4500' }}>Licenses & Certifications <FaAngleDown /></Link>
+                    <ul className="axil-submenu">
+                        <li><a href="/images/others/ISO-Certificate.pdf" target="_blank" rel="noopener noreferrer">ISO Certificate</a></li>
+                        <li><a href="/images/others/SMC-Certificate-Form-E.pdf" target="_blank" rel="noopener noreferrer">SMC Certificate Form E</a></li>
+                        <li><a href="/images/others/B-Class-Electrical-Contractor-License-Rajasthan.pdf" target="_blank" rel="noopener noreferrer">B Class Electrical Contractor License (Rajasthan)</a></li>
+                        <li><a href="/images/others/A-Class-Registration-RB-Electrical-License.pdf" target="_blank" rel="noopener noreferrer">A Class Registration (R&B Electrical License)</a></li>
+                        <li><a href="/images/others/B-Class-Registration-RB.pdf" target="_blank" rel="noopener noreferrer">B Class Registration (R&B)</a></li>
+                    </ul>
+                </li>
 
 
                 <li className="menu-item-has-children">
-                    <Link to={process.env.PUBLIC_URL + "/contact"} style={{color:'#FF4500'}}>CONTACT US</Link>
+                    <Link to={process.env.PUBLIC_URL + "/contact"} style={{ color: '#FF4500' }}>CONTACT US</Link>
 
                 </li>
             </ul>
